@@ -1,6 +1,6 @@
 '''
 NAME
-    amino_acid_content
+    Einfo
 
 VERSION
     1.0
@@ -9,7 +9,7 @@ AUTHOR
     Gabriel Ramirez Vilchis
 
 GITHUB
-    https://github.com/gabrielramirezv/Programacion_en_Python/blob/master/src/amino_acid_content.py
+    https://github.com/gabrielramirezv/BioPython/blob/master/src/Einfo.py
 
 DESCRIPTION
     Provides more information about the data bases
@@ -24,7 +24,7 @@ ARGUMENTS
     None
 
 SEE ALSO
-    AT_GC_percentage
+    
 
 '''
 
