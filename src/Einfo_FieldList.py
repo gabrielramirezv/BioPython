@@ -3,7 +3,7 @@ NAME
     Einfo
 
 VERSION
-    1.0
+    2.0
 
 AUTHOR
     Gabriel Ramirez Vilchis
@@ -21,7 +21,9 @@ USAGE
     python Einfo_FieldList.py
 
 ARGUMENTS
-    None
+    -h, --help          Show a help message and exit
+    -db DATABASE, --database DATABASE
+                        DataBase that you want to access to
 
 SEE ALSO
     Einfo
@@ -29,13 +31,33 @@ SEE ALSO
 '''
 
 # Import libraries
+import argparse
 from Bio import Entrez
+
+# Define errors
+class LackOfInputError(Exception):
+    pass
 
 # Register an email account
 Entrez.email = "gramirez@lcg.unam.mx"
 
+# Create parser
+parser = argparse.ArgumentParser(description="Script that access to the "
+                                 + "FieldList of a specific data base")
+
+# Store the arguments
+parser.add_argument("-db", "--database",
+                    help="DataBase that you want to access to",
+                    type=str,
+                    required=True)
+
+args = parser.parse_args()
+
+# Register the data base
+data_base = args.database
+
 # Use Einfo and read the content
-handle = Entrez.einfo(db = "pubmed")
+handle = Entrez.einfo(db = data_base)
 record = Entrez.read(handle)
 handle.close()
 
