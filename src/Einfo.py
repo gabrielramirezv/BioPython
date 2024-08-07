@@ -3,7 +3,7 @@ NAME
     amino_acid_content
 
 VERSION
-    0.1
+    1.0
 
 AUTHOR
     Gabriel Ramirez Vilchis
@@ -29,9 +29,16 @@ SEE ALSO
 '''
 
 # Import libraries
+from Bio import Entrez
+from pprint import pprint
 
 # Register an email account
+Entrez.email = "gramirez@lcg.unam.mx"
 
 # Use Einfo and read the content
+handle = Entrez.einfo()
+result = handle.read()
+handle.close()
 
 # Print
+pprint(result)
