@@ -3,7 +3,7 @@ NAME
     Einfo
 
 VERSION
-    2.0
+    3.0
 
 AUTHOR
     Gabriel Ramirez Vilchis
