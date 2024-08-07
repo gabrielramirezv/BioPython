@@ -30,7 +30,6 @@ SEE ALSO
 
 # Import libraries
 from Bio import Entrez
-from pprint import pprint
 
 # Register an email account
 Entrez.email = "gramirez@lcg.unam.mx"
@@ -42,4 +41,4 @@ handle.close()
 
 # Print
 for database in record["DbList"]:
-    pprint(database)
+    print(database)
