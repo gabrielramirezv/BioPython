@@ -93,3 +93,4 @@ else:
         full_name = field["FullName"]
         description = field["Description"]
         print(f"{name}\t{full_name}\t{description}")
+        
