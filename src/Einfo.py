@@ -3,7 +3,7 @@ NAME
     Einfo
 
 VERSION
-    1.0
+    3.0
 
 AUTHOR
     Gabriel Ramirez Vilchis
@@ -41,4 +41,5 @@ record = Entrez.read(handle)
 handle.close()
 
 # Print
-pprint(record["DbList"])
+for database in record["DbList"]:
+    pprint(database)
