@@ -35,7 +35,7 @@ import argparse
 from Bio import Entrez
 
 # Define errors
-class LackOfInputError(Exception):
+class InvalidInputError(Exception):
     pass
 
 # Register an email account
@@ -57,17 +57,39 @@ args = parser.parse_args()
 data_base = args.database
 
 # Use Einfo and read the content
-handle = Entrez.einfo(db = data_base)
+handle = Entrez.einfo()
 record = Entrez.read(handle)
 handle.close()
 
-# Access to FieldList
-fields = record["DbInfo"]["FieldList"]
+# Verify that it is a valid data base
+try:
+    database_is_valid = False
+    for database in record["DbList"]:
+            if data_base == database:
+                database_is_valid = True
+                break
+    if database_is_valid == False:
+        raise InvalidInputError("\nDataBase is not valid.")
+except InvalidInputError as invalid_input_error:
+    print(invalid_input_error.args[0] 
+          + " Please, select one of these data bases:\n")
+    for database in record["DbList"]:
+        print(database)
 
-# Print the content
-print("NAME\tFULL NAME\tDESCRIPTION")
-for field in fields:
-    name = field["Name"]
-    full_name = field["FullName"]
-    description = field["Description"]
-    print(f"{name}\t{full_name}\t{description}")
+else:
+
+    # Use Einfo and read the content of the data base
+    handle = Entrez.einfo(db = data_base)
+    record = Entrez.read(handle)
+    handle.close()
+
+    # Access to FieldList
+    fields = record["DbInfo"]["FieldList"]
+
+    # Print the content
+    print("NAME\tFULL NAME\tDESCRIPTION")
+    for field in fields:
+        name = field["Name"]
+        full_name = field["FullName"]
+        description = field["Description"]
+        print(f"{name}\t{full_name}\t{description}")
