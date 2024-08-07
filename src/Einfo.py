@@ -37,8 +37,8 @@ Entrez.email = "gramirez@lcg.unam.mx"
 
 # Use Einfo and read the content
 handle = Entrez.einfo()
-result = handle.read()
+record = Entrez.read(handle)
 handle.close()
 
 # Print
-pprint(result)
+pprint(record["DbList"])
