@@ -15,7 +15,8 @@ GITHUB
     https://github.com/gabrielramirezv/BioPython/blob/master/src/Esearch.py
 
 DESCRIPTION
-    Provides more information about the data bases
+    Provides the number of results of your search in the specified 
+    data base
 
 CATEGORY
     Entrez
