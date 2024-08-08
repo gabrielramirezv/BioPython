@@ -18,7 +18,7 @@ CATEGORY
     Entrez
 
 USAGE
-    python Einfo_FieldList.py
+    python src/Einfo_FieldList.py
 
 ARGUMENTS
     -h, --help          Show a help message and exit

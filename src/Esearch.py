@@ -22,7 +22,7 @@ CATEGORY
     Entrez
 
 USAGE
-    python Esearch.py
+    python src/Esearch.py
 
 ARGUMENTS
     None

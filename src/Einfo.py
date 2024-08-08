@@ -18,7 +18,7 @@ CATEGORY
     Entrez
 
 USAGE
-    python Einfo.py
+    python src/Einfo.py
 
 ARGUMENTS
     None
