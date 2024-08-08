@@ -41,13 +41,16 @@ from Bio import Entrez
 Entrez.email = "gramirez@lcg.unam.mx"
 
 # Search the term in the data base
-handle = Entrez.esearch(db = "pubmed", term = "biopython")
+handle = Entrez.esearch(db = "pubmed", 
+                        term = "biopython")
 record = Entrez.read(handle)
 handle.close()
 
 # Specify to get all the IDs
 count = int(record["Count"])
-handle = Entrez.esearch(db = "pubmed", term = "biopython", retmax = count)
+handle = Entrez.esearch(db = "pubmed", 
+                        term = "biopython", 
+                        retmax = count)
 record = Entrez.read(handle)
 handle.close()
 
