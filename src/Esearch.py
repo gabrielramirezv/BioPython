@@ -38,10 +38,10 @@ from Bio import Entrez
 # Register an email account
 Entrez.email = "gramirez@lcg.unam.mx"
 
-# Realizar la busqueda
+# Search the specified term in the data base
 handle = Entrez.esearch(db = "pubmed", term = "biopython")
 record = Entrez.read(handle)
 handle.close()
 
-# Imprimir el conteo de resultados
+# Print the results
 print(record["Count"])
