@@ -16,7 +16,7 @@ Repository for BioPython class, belonging to the Undergraduate Program in Genomi
 ├── LICENSE.md        # License</p>
 └── .gitignore            # Files that should be ignored by Git</p>
 
-## Motivación  
+## Motivation  
 
 To have a repository with all the projects and scripts generated during the course _BioPython_ from the Undergraduate Program in Genomic Sciences, to control the versions of these codes, and to collaborate with others in software development. 
 This repository also looks up to develop tools that facilitate the analysis of great ammounts of data in biologic research.
@@ -29,15 +29,15 @@ To execute the scripts in this repository, you must have the Python interpreter.
 
 All scripts are available in the repository. If there are additional instalation details, those will be described in the script internal documentation.    
 
-## Inicio rápido  
+## Quick Start 
 
 In this repository you will find notes from the course _BioPython_, as well as scripts that automate the analysis of biologic data.  
 
 ## License  
 
-MIT License  
+MIT License
 
-Copyright (c) 2022 Gabriel Ramírez Vilchis  
+Copyright (c) 2024 Gabriel Ramírez Vilchis
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -55,7 +55,7 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.  
+SOFTWARE.
 
 (Please, read the LICENSE file in the repository).  
 
