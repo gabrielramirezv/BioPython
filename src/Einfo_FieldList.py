@@ -18,7 +18,7 @@ CATEGORY
     Entrez
 
 USAGE
-    python src/Einfo_FieldList.py
+    python src/Einfo_FieldList.py [-h] [-db DATABASE]
 
 ARGUMENTS
     -h, --help          Show a help message and exit
@@ -49,7 +49,8 @@ parser = argparse.ArgumentParser(description="Script that access to the "
 parser.add_argument("-db", "--database",
                     help="DataBase that you want to access to",
                     type=str,
-                    required=True)
+                    required=False,
+                    default="pubmed")
 
 args = parser.parse_args()
 
