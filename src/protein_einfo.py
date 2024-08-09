@@ -3,7 +3,7 @@ NAME
     protein_einfo
 
 VERSION
-    0.1
+    1.0
 
 TYPE
     Exercise
