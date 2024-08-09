@@ -33,11 +33,31 @@ SEE ALSO
 '''
 
 # Import libraries
+from Bio import Entrez
 
 # Register an email account
+Entrez.email = "gramirez@lcg.unam.mx"
 
 # Get the information from the database
+handle = Entrez.einfo(db = "protein")
+record = Entrez.read(handle)
+handle.close()
 
-# Get the description of ECNO and protein_protein_small_genome
+# Get the description of ECNO
+fields = record["DbInfo"]["FieldList"]
+for field in fields:
+    if field["Name"] == "ECNO":
+        ecno_description = field["Description"]
+        break
+
+# Get the description of protein_protein_small_genome
+fields = record["DbInfo"]["LinkList"]
+for field in fields:
+    if field["Name"] == "protein_protein_small_genome":
+        protein_protein_small_genome_description = field["Description"]
+        break
 
 # Print results
+print(f"ECNO\t{ecno_description}\n" +
+      "protein_protein_small_genome\t" + 
+      f"{protein_protein_small_genome_description}")
