@@ -1,6 +1,6 @@
 '''
 NAME
-    Einfo
+    Einfo_FieldList
 
 VERSION
     3.0
