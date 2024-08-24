@@ -30,7 +30,7 @@ REQUIREMENTS
         \- src       # The script must be executed from this directory
 
 USAGE
-    python src/lineage_comparison
+    python src/lineage_comparison.py
 
 ARGUMENTS
                         
