@@ -1,0 +1,220 @@
+1. J Biomed Semantics. 2019 May 22;10(1):8. doi: 10.1186/s13326-019-0200-x.
+
+Similarity corpus on microbial transcriptional regulation.
+
+Lithgow-Serrano O(1)(2), Gama-Castro S(3), Ishida-Gutiérrez C(3), Mejía-Almonte 
+C(3), Tierrafría VH(3), Martínez-Luna S(3), Santos-Zavaleta A(3), 
+Velázquez-Ramírez D(3), Collado-Vides J(3)(4).
+
+Author information:
+(1)Computational Genomics, Centro de Ciencias Genómicas, Universidad Nacional 
+Autónoma de México (UNAM). A.P., 565-A Cuernavaca, Morelos, 62100, México. 
+olithgow@ccg.unam.mx.
+(2)Instituto de Investigaciones en Matemáticas Aplicadas y en Sistemas (IIMAS), 
+Universidad Nacional Autónoma de México (UNAM), Mexico City, México. 
+olithgow@ccg.unam.mx.
+(3)Computational Genomics, Centro de Ciencias Genómicas, Universidad Nacional 
+Autónoma de México (UNAM). A.P., 565-A Cuernavaca, Morelos, 62100, México.
+(4)Department of Biomedical Engineering, Boston University, Boston, 
+Massachusetts, USA.
+
+BACKGROUND: The ability to express the same meaning in different ways is a 
+well-known property of natural language. This amazing property is the source of 
+major difficulties in natural language processing. Given the constant increase 
+in published literature, its curation and information extraction would strongly 
+benefit from efficient automatic processes, for which corpora of sentences 
+evaluated by experts are a valuable resource.
+RESULTS: Given our interest in applying such approaches to the benefit of 
+curation of the biomedical literature, specifically that about gene regulation 
+in microbial organisms, we decided to build a corpus with graded textual 
+similarity evaluated by curators and that was designed specifically oriented to 
+our purposes. Based on the predefined statistical power of future analyses, we 
+defined features of the design, including sampling, selection criteria, balance, 
+and size, among others. A non-fully crossed study design was applied. Each pair 
+of sentences was evaluated by 3 annotators from a total of 7; the scale used in 
+the semantic similarity assessment task within the Semantic Evaluation workshop 
+(SEMEVAL) was adapted to our goals in four successive iterative sessions with 
+clear improvements in the agreed guidelines and interrater reliability results. 
+Alternatives for such a corpus evaluation have been widely discussed.
+CONCLUSIONS: To the best of our knowledge, this is the first similarity corpus-a 
+dataset of pairs of sentences for which human experts rate the semantic 
+similarity of each pair-in this domain of knowledge. We have initiated its 
+incorporation in our research towards high-throughput curation strategies based 
+on natural language processing.
+
+DOI: 10.1186/s13326-019-0200-x
+PMCID: PMC6532127
+PMID: 31118102 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare that they have no competing 
+interests.
+Cites: 10155859, 9678326, 8747118, 8313968, 7990182
+
+
+
+1. J Bacteriol. 2009 Jan;191(1):23-31. doi: 10.1128/JB.01017-08. Epub 2008 Oct
+31.
+
+Bioinformatics resources for the study of gene regulation in bacteria.
+
+Collado-Vides J(1), Salgado H, Morett E, Gama-Castro S, Jiménez-Jacinto V, 
+Martínez-Flores I, Medina-Rivera A, Muñiz-Rascado L, Peralta-Gil M, 
+Santos-Zavaleta A.
+
+Author information:
+(1)Programa de Genómica Computacional, Centro de Ciencias Genómicas, Universidad 
+Nacional Autónoma de México, A.P. 565-A, Cuernavaca, Morelos 62100, Mexico. 
+collado@ccg.unam.mx
+
+DOI: 10.1128/JB.01017-08
+PMCID: PMC2612416
+PMID: 18978060 [Indexed for MEDLINE]
+Cites: 7990032, 7186461, 7120928, 6985748, 6060643, 5002191, 3911252, 3769190, 3531196, 3013702, 2881121, 2612415
+
+
+
+1. J Mol Biol. 2005 Nov 18;354(1):184-99. doi: 10.1016/j.jmb.2005.09.037. Epub
+2005  Oct 4.
+
+Comparative studies of transcriptional regulation mechanisms in a group of eight 
+gamma-proteobacterial genomes.
+
+Espinosa V(1), González AD, Vasconcelos AT, Huerta AM, Collado-Vides J.
+
+Author information:
+(1)National Bioinformatics Center, Industria y San José, Capitolio Nacional, CP. 
+10200, Habana Vieja, Ciudad de la Habana, Cuba.
+
+Experimental data on the Escherichia coli transcriptional regulation has enabled 
+the construction of statistical models to predict new regulatory elements within 
+its genome. Far less is known about the transcriptional regulatory elements in 
+other gamma-proteobacteria with sequenced genomes, so it is of great interest to 
+conduct comparative genomic studies oriented to extracting biologically relevant 
+information about transcriptional regulation in these less studied organisms 
+using the knowledge from E. coli. In this work, we use the information stored in 
+the TRACTOR_DB database to conduct a comparative study on the mechanisms of 
+transcriptional regulation in eight gamma-proteobacteria and 38 regulons. We 
+assess the conservation of transcription factors binding specificity across all 
+the eight genomes and show a correlation between the conservation of a 
+regulatory site and the structure of the transcription unit it regulates. We 
+also find a marked conservation of site-promoter distances across the eight 
+organisms and a correspondence of the statistical significance of co-occurrence 
+of pairs of transcription factor binding sites in the regulatory regions, which 
+is probably related to a conserved architecture of higher-order regulatory 
+complexes in the organisms studied. The results obtained in this study using the 
+information on transcriptional regulation in E. coli enable us to conclude that 
+not only transcription factor-binding sites are conserved across related species 
+but also several of the transcriptional regulatory mechanisms previously 
+identified in E. coli.
+
+DOI: 10.1016/j.jmb.2005.09.037
+PMID: 16236313 [Indexed for MEDLINE]
+Cites: 5696542, 3147536, 3001071, 2761915, 2738135, 2653031, 2643304, 2491489, 2374795, 2329645, 1669740
+
+
+
+1. Phys Rev E Stat Nonlin Soft Matter Phys. 2005 Jul;72(1 Pt 1):011919. doi: 
+10.1103/PhysRevE.72.011919. Epub 2005 Jul 29.
+
+Nonlinear software sensor for monitoring genetic regulation processes with noise 
+and modeling errors.
+
+Ibarra-Junquera V(1), Torres LA, Rosu HC, Argüello G, Collado-Vides J.
+
+Author information:
+(1)Potosinian Institute of Science and Technology, San Luis Potosí, Mexico. 
+vrani@ipicyt.edu.mx
+
+Nonlinear control techniques by means of a software sensor that are commonly 
+used in chemical engineering could be also applied to genetic regulation 
+processes. We provide here a realistic formulation of this procedure by 
+introducing an additive white Gaussian noise, which is usually found in 
+experimental data. Besides, we include model errors, meaning that we assume we 
+do not know the nonlinear regulation function of the process. In order to 
+illustrate this procedure, we employ the Goodwin dynamics of the concentrations 
+[B. C. Goodwin, (Academic, New York, 1963)] in the simple form recently applied 
+to single gene systems and some operon cases [H. De Jong, J. Comput. Biol. 9, 67 
+(2002)], which involves the dynamics of the mRNA, given protein and metabolite 
+concentrations. Further, we present results for a three gene case in coregulated 
+sets of transcription units as they occur in prokaryotes. However, instead of 
+considering their full dynamics, we use only the data of the metabolites and a 
+designed software sensor. We also show, more generally, that it is possible to 
+rebuild the complete set of nonmeasured concentrations despite the uncertainties 
+in the regulation function or, even more, in the case of not knowing the mRNA 
+dynamics. In addition, the rebuilding of concentrations is not affected by the 
+perturbation due to the additive white Gaussian noise and also we managed to 
+filter the noisy output of the biological system.
+
+DOI: 10.1103/PhysRevE.72.011919
+PMID: 16090013 [Indexed for MEDLINE]
+Cites: This article has not any cites in the available databases.
+
+
+
+1. Indian J Exp Biol. 2003 Oct;41(10):1101-13.
+
+Regulation of expression of symbiotic genes in Rhizobium sp. NGR234.
+
+Perret X(1), Kobayashi H, Collado-Vides J.
+
+Author information:
+(1)Laboratoire de Biologie Moléculaire des Plantes Supérieures, Université de 
+Genève, 1 chemin de l'Impératrice, CH-1292 Chambésy, Genève, Switzerland. 
+Xavier.Perret@bioveg.urige.ch
+
+Research in the field of Rhizobium-legume symbiosis faces a new challenge: 
+integrate the wealth of information generated by genomic projects. The goal: 
+apprehend the complexity of the molecular mechanisms involved in symbiotic 
+associations. At the time of writing, the genomes of three micro-symbionts 
+(Bradyrhizobium japonicum, Mesorhizobium loti and Sinorhizobium meliloti) have 
+been sequenced, and two more (those of Rhizobium leguminosarum and Rhizobium 
+etli) will be completed in the near future. Together, completed rhizobial 
+genomes represent already 23,393,822 bp of DNA sequence and 21,797 predicted 
+open reading frames (ORFs). To identify candidate-symbiotic genes in such a 
+broad database, predict their function and dissect the regulatory networks that 
+govern their expression are no simple tasks. One way to confront this problem is 
+to combine different datasets, in particular genetic and transcriptional maps as 
+well as predicted promoters from bioinformatics analyses. Here, we would like to 
+illustrate this type of approach with the analysis of the symbiotic plasmid 
+(pNGR234a) of the broad host-range Rhizobium sp. NGR234.
+
+PMID: 15242276 [Indexed for MEDLINE]
+Cites: 6381291, 3973906, 3585131, 2770584, 438593
+
+
+
+1. J Theor Biol. 1989 Feb 22;136(4):403-25. doi: 10.1016/s0022-5193(89)80156-0.
+
+A transformational-grammar approach to the study of the regulation of gene 
+expression.
+
+Collado-Vides J(1).
+
+Author information:
+(1)Departamento de Neurociencias, Universidad Nacional Autónoma de Mexico, 
+México D.F.
+
+An important problem in biology is the lack of a set of common principles 
+unifying biological knowledge. We propose generative grammar for constructing an 
+integrative paradigm for the understanding of genome organization and the 
+regulation of gene expression. Linguistic terms in molecular biology are 
+defined. A genetic syntactic structure is defined as being equivalent to a 
+sentence. The hypotheses for the grammar of genome structure are: (i) the 
+"grammaticality" of the linguistic approach studies the "regulability" of genome 
+structures; (ii) the "regulability" of genetic structures is independent from 
+their specific biochemical meaning and (iii) the dynamics of regulation is 
+implicit in the genome structure. A general structure is presented for the 
+grammar; the application of phase-structure rules is justified by the existence 
+of lexical categories. Transformational rules are utilized to represent loops of 
+regulation. Negative inducible, positive repressible, positive inducible and 
+negative repressible alternative mechanisms of regulation are represented, by 
+four transformational rules, and the application of these rules is established 
+by two principles. Finally, this approach is compared to other linguistic 
+applications in molecular biology.
+
+DOI: 10.1016/s0022-5193(89)80156-0
+PMID: 2811400 [Indexed for MEDLINE]
+Cites: 3312021, 2821113, 2447320
+
+
+
