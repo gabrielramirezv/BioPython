@@ -3,7 +3,7 @@ NAME
     Uniprot_accession
 
 VERSION
-    0.1
+    1.0
 
 AUTHOR
     Gabriel Ramirez Vilchis
@@ -12,9 +12,8 @@ GITHUB
     https://github.com/gabrielramirezv/BioPython/blob/master/src/Uniprot_accession.py
 
 DESCRIPTION
-    Receives a file with IDs of articles of interest and creates a file
-    with the abstracts of those articles, including IDs of other 
-    papers that cited them.
+    Searches a specific protein in different databases, and it returns 
+    the IDs and accessions.
 
 CATEGORY
     ExPASy
@@ -44,17 +43,27 @@ SEE ALSO
 '''
 
 # Import libraries
+from Bio import Entrez, SeqIO
 
 # Register an email
+Entrez.email = "gramirez@lcg.unam.mx"
 
 # Search in the protein database
-
-# Read the results
+with Entrez.esearch(db="protein", 
+                   term="DEFA[gene] AND Aedes aegypti[Orgn]") as handle:
+    # Read the results
+    record = Entrez.read(handle)
 
 # Get ID
+prot_id = record["IdList"]
 
 # Extract a GenBank from the protein database
-
-# Read the results
-
-# Get the protein information from other databases
+with Entrez.efetch(db="protein", 
+                   id=prot_id, 
+                   rettype="gb", 
+                   retmode="text") as handle:
+    # Read the results
+    record = SeqIO.parse(handle, "genbank")
+    for protein in record:
+        print(protein.id)
+        print(f"{protein.annotations['db_source']}\n")
