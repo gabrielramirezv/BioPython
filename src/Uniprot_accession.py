@@ -3,7 +3,7 @@ NAME
     Uniprot_accession
 
 VERSION
-    1.0
+    2.0
 
 AUTHOR
     Gabriel Ramirez Vilchis
@@ -43,7 +43,8 @@ SEE ALSO
 '''
 
 # Import libraries
-from Bio import Entrez, SeqIO
+import os
+from Bio import Entrez, SeqIO, ExPASy
 
 # Register an email
 Entrez.email = "gramirez@lcg.unam.mx"
@@ -65,5 +66,17 @@ with Entrez.efetch(db="protein",
     # Read the results
     record = SeqIO.parse(handle, "genbank")
     for protein in record:
-        print(protein.id)
-        print(f"{protein.annotations['db_source']}\n")
+        if "UniProtKB" in protein.annotations['db_source']:
+            defa_prot = protein.annotations['accessions']
+
+# Create the files with the results and inform the user
+if defa_prot:
+    print("\nThe following files have been created in the directory results/\n")
+    for accession in defa_prot:
+        with open(f"results/{accession}.txt", 'w') as accession_file:
+            handle = ExPASy.get_sprot_raw(accession)
+            accession_file.write(handle.read())
+        print(f"{accession}.txt")
+else:
+    print("\nNo results found.\n")
+
