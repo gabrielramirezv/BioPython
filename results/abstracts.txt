@@ -52,7 +52,7 @@ Cites: 10155859, 9678326, 8747118, 8313968, 7990182
 
 
 
-1. J Bacteriol. 2009 Jan;191(1):23-31. doi: 10.1128/JB.01017-08. Epub 2008 Oct
+2. J Bacteriol. 2009 Jan;191(1):23-32. doi: 10.1128/JB.01017-08. Epub 2008 Oct
 31.
 
 Bioinformatics resources for the study of gene regulation in bacteria.
@@ -73,7 +73,7 @@ Cites: 7990032, 7186461, 7120928, 6985748, 6060643, 5002191, 3911252, 3769190, 3
 
 
 
-1. J Mol Biol. 2005 Nov 18;354(1):184-99. doi: 10.1016/j.jmb.2005.09.037. Epub
+3. J Mol Biol. 2005 Nov 18;354(1):184-99. doi: 10.1016/j.jmb.2005.09.037. Epub
 2005  Oct 4.
 
 Comparative studies of transcriptional regulation mechanisms in a group of eight 
@@ -113,7 +113,7 @@ Cites: 5696542, 3147536, 3001071, 2761915, 2738135, 2653031, 2643304, 2491489, 2
 
 
 
-1. Phys Rev E Stat Nonlin Soft Matter Phys. 2005 Jul;72(1 Pt 1):011919. doi: 
+4. Phys Rev E Stat Nonlin Soft Matter Phys. 2005 Jul;72(1 Pt 1):011919. doi: 
 10.1103/PhysRevE.72.011919. Epub 2005 Jul 29.
 
 Nonlinear software sensor for monitoring genetic regulation processes with noise 
@@ -147,11 +147,11 @@ filter the noisy output of the biological system.
 
 DOI: 10.1103/PhysRevE.72.011919
 PMID: 16090013 [Indexed for MEDLINE]
-Cites: This article has not any cites in the available databases.
+Cites: There are no cites to this article.
 
 
 
-1. Indian J Exp Biol. 2003 Oct;41(10):1101-13.
+5. Indian J Exp Biol. 2003 Oct;41(10):1101-13.
 
 Regulation of expression of symbiotic genes in Rhizobium sp. NGR234.
 
@@ -183,7 +183,7 @@ Cites: 6381291, 3973906, 3585131, 2770584, 438593
 
 
 
-1. J Theor Biol. 1989 Feb 22;136(4):403-25. doi: 10.1016/s0022-5193(89)80156-0.
+6. J Theor Biol. 1989 Feb 22;136(4):403-25. doi: 10.1016/s0022-5193(89)80156-0.
 
 A transformational-grammar approach to the study of the regulation of gene 
 expression.

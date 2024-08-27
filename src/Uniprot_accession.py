@@ -3,7 +3,7 @@ NAME
     Uniprot_accession
 
 VERSION
-    2.0
+    3.0
 
 AUTHOR
     Gabriel Ramirez Vilchis
@@ -33,8 +33,6 @@ USAGE
     python src/Uniprot_accession.py
 
 ARGUMENTS
-                        
-VARIABLES DICTIONARY
     
 
 SEE ALSO
@@ -43,15 +41,37 @@ SEE ALSO
 '''
 
 # Import libraries
-import os
+import os, argparse
 from Bio import Entrez, SeqIO, ExPASy
 
+# Create parser
+parser = argparse.ArgumentParser(description="Search taxonomy files " 
+                                 + "for two different species and " 
+                                 + "compare their lineages")
+
+# Store the arguments
+parser.add_argument("-e", "--email",
+                    help="Email to use in Entrez",
+                    type=str,
+                    required=False,
+                    default="gramirez@lcg.unam.mx")
+
+parser.add_argument("-t", "--term",
+                    help="Term to search",
+                    type=str,
+                    required=False,
+                    default="DEFA[gene] AND Aedes aegypti[Orgn]")
+
+args = parser.parse_args()
+email = args.email
+term_to_search = args.term
+
 # Register an email
-Entrez.email = "gramirez@lcg.unam.mx"
+Entrez.email = email
 
 # Search in the protein database
 with Entrez.esearch(db="protein", 
-                   term="DEFA[gene] AND Aedes aegypti[Orgn]") as handle:
+                   term=term_to_search) as handle:
     # Read the results
     record = Entrez.read(handle)
 
@@ -70,13 +90,26 @@ with Entrez.efetch(db="protein",
             defa_prot = protein.annotations['accessions']
 
 # Create the files with the results and inform the user
-if defa_prot:
-    print("\nThe following files have been created in the directory results/\n")
-    for accession in defa_prot:
-        with open(f"results/{accession}.txt", 'w') as accession_file:
-            handle = ExPASy.get_sprot_raw(accession)
-            accession_file.write(handle.read())
-        print(f"{accession}.txt")
-else:
-    print("\nNo results found.\n")
-
+try:
+    if defa_prot:
+        print("\nThe following files have been created in the " 
+              + "directory results/\n")
+        for accession in defa_prot:
+            with open(f"results/{accession}.txt",
+                       'w') as accession_file:
+                handle = ExPASy.get_sprot_raw(accession)
+                accession_file.write(handle.read())
+            print(f"{accession}.txt")
+    else:
+        print("\nNo results found.\n")
+        
+# If there is not a results directory, create it
+except OSError:
+    os.mkdir("results")
+    if defa_prot:
+        for accession in defa_prot:
+            with open(f"results/{accession}.txt",
+                       'w') as accession_file:
+                handle = ExPASy.get_sprot_raw(accession)
+                accession_file.write(handle.read())
+            print(f"{accession}.txt")

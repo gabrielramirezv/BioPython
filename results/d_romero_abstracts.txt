@@ -1,0 +1,781 @@
+1. mBio. 2022 Oct 26;13(5):e0194922. doi: 10.1128/mbio.01949-22. Epub 2022 Sep 8.
+
+RcgA and RcgR, Two Novel Proteins Involved in the Conjugative Transfer of 
+Rhizobial Plasmids.
+
+Castellani LG(1), Luchetti A(1), Nilsson JF(1), Pérez-Giménez J(1), Struck B(2), 
+Schlüter A(2), Pühler A(2), Niehaus K(2), Romero D(3), Pistorio M(1), Torres 
+Tejerizo G(1).
+
+Author information:
+(1)Instituto de Biotecnología y Biología Molecular, CCT-La Plata-CONICET, 
+Departamento de Ciencias Biológicas, Facultad de Ciencias Exactas, Universidad 
+Nacional de La Plata, La Plata, Argentina.
+(2)Center for Biotechnology (CeBiTec), Bielefeld Universitygrid.7491.b, Genome 
+Research of Industrial Microorganisms, Bielefeld, Germany.
+(3)Programa de Ingeniería Genómica, Centro de Ciencias Genómicas, Universidad 
+Nacional Autónoma de México, Cuernavaca, Morelos, México.
+
+Rhizobia are Gram-negative bacteria that are able to establish a nitrogen-fixing 
+symbiotic interaction with leguminous plants. Rhizobia genomes usually harbor 
+several plasmids which can be transferred to other organisms by conjugation. Two 
+main mechanisms of the regulation of rhizobial plasmid transfer have been 
+described: quorum sensing (QS) and the rctA/rctB system. Nevertheless, new genes 
+and molecules that modulate conjugative transfer have recently been described, 
+demonstrating that new actors can tightly regulate the process. In this work, by 
+means of bioinformatics tools and molecular biology approaches, two hypothetical 
+genes are identified as playing key roles in conjugative transfer. These genes 
+are located between conjugative genes of plasmid pRfaLPU83a from Rhizobium 
+favelukesii LPU83, a plasmid that shows a conjugative transfer behavior 
+depending on the genomic background. One of the two mentioned genes, rcgA, is 
+essential for conjugation, while the other, rcgR, acts as an inhibitor of the 
+process. In addition to introducing this new regulatory system, we show evidence 
+of the functions of these genes in different genomic backgrounds and confirm 
+that homologous proteins from non-closely related organisms have the same 
+functions. These findings set up the basis for a new regulatory circuit of the 
+conjugative transfer of plasmids. IMPORTANCE Extrachromosomal DNA elements, such 
+as plasmids, allow for the adaptation of bacteria to new environments by 
+conferring new determinants. Via conjugation, plasmids can be transferred 
+between members of the same bacterial species, different species, or even to 
+organisms belonging to a different kingdom. Knowledge about the regulatory 
+systems of plasmid conjugative transfer is key in understanding the dynamics of 
+their dissemination in the environment. As the increasing availability of 
+genomes raises the number of predicted proteins with unknown functions, deeper 
+experimental procedures help to elucidate the roles of these determinants. In 
+this work, two uncharacterized proteins that constitute a new regulatory circuit 
+with a key role in the conjugative transfer of rhizobial plasmids were 
+discovered.
+
+DOI: 10.1128/mbio.01949-22
+PMCID: PMC9601222
+PMID: 36073816 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors declare no conflict of interest.
+Cites: 10269804
+
+
+
+2. Front Microbiol. 2022 Apr 7;13:858440. doi: 10.3389/fmicb.2022.858440. 
+eCollection 2022.
+
+RdsA Is a Global Regulator That Controls Cell Shape and Division in Rhizobium 
+etli.
+
+Martínez-Absalón S(1), Guadarrama C(1), Dávalos A(1), Romero D(1).
+
+Author information:
+(1)Programa de Ingeniería Genómica, Centro de Ciencias Genómicas, Universidad 
+Nacional Autónoma de México, Cuernavaca, Mexico.
+
+Unlike other bacteria, cell growth in rhizobiales is unipolar and asymmetric. 
+The regulation of cell division, and its coordination with metabolic processes 
+is an active field of research. In Rhizobium etli, gene RHE_PE00024, located in 
+a secondary chromosome, is essential for growth. This gene encodes a predicted 
+hybrid histidine kinase sensor protein, participating in a, as yet undescribed, 
+two-component signaling system. In this work, we show that a conditional 
+knockdown mutant (cKD24) in RHE_PE00024 (hereby referred as rdsA, after 
+rhizobium division and shape) generates a striking phenotype, where nearly 64% 
+of the cells present a round shape, with stochastic and uncoordinated cell 
+division. For rod-shaped cells, a large fraction (12 to 29%, depending on their 
+origin) present growth from the old pole, a sector that is normally inactive for 
+growth in a wild-type cell. A fraction of the cells (1 to 3%) showed also 
+multiple ectopic polar growths. Homodimerization of RdsA appears to be required 
+for normal function. RNAseq analysis of mutant cKD24 reveals global changes, 
+with downregulated genes in at least five biological processes: cell division, 
+wall biogenesis, respiration, translation, and motility. These modifications may 
+affect proper structuring of the divisome, as well as peptidoglycan synthesis. 
+Together, these results indicate that the hybrid histidine kinase RdsA is an 
+essential global regulator influencing cell division and cell shape in R. etli.
+
+Copyright © 2022 Martínez-Absalón, Guadarrama, Dávalos and Romero.
+
+DOI: 10.3389/fmicb.2022.858440
+PMCID: PMC9022086
+PMID: 35464952
+
+Conflict of interest statement: The authors declare that the research was 
+conducted in the absence of any commercial or financial relationships that could 
+be construed as a potential conflict of interest.
+Cites: There are no cites to this article.
+
+
+
+3. PLoS One. 2020 Aug 26;15(8):e0238218. doi: 10.1371/journal.pone.0238218. 
+eCollection 2020.
+
+Role of plant compounds in the modulation of the conjugative transfer of 
+pRet42a.
+
+Bañuelos-Vazquez LA(1), Castellani LG(2), Luchetti A(2), Romero D(1), Torres 
+Tejerizo GA(2), Brom S(1).
+
+Author information:
+(1)Programa de Ingeniería Genómica, Centro de Ciencias Genómicas, Universidad 
+Nacional Autónoma de México, Cuernavaca, Morelos, México.
+(2)Departamento de Ciencias Biológicas, Facultad de Ciencias Exactas, Instituto 
+de Biotecnología y Biología Molecular, CCT-La Plata-CONICET, Universidad 
+Nacional de La Plata, La Plata, Argentina.
+
+One of the most studied mechanisms involved in bacterial evolution and 
+diversification is conjugative transfer (CT) of plasmids. Plasmids able to 
+transfer by CT often encode beneficial traits for bacterial survival under 
+specific environmental conditions. Rhizobium etli CFN42 is a Gram-negative 
+bacterium of agricultural relevance due to its symbiotic association with 
+Phaseolus vulgaris through the formation of Nitrogen-fixing nodules. The genome 
+of R. etli CFN42 consists of one chromosome and six large plasmids. Among these, 
+pRet42a has been identified as a conjugative plasmid. The expression of the 
+transfer genes is regulated by a quorum sensing (QS) system that includes a traI 
+gene, which encodes an acyl-homoserine lactone (AHL) synthase and two 
+transcriptional regulators (TraR and CinR). Recently, we have shown that pRet42a 
+can perform CT on the root surface and inside nodules. The aim of this work was 
+to determine the role of plant-related compounds in the CT of pRet42a. We found 
+that bean root exudates or root and nodule extracts induce the CT of pRet42a in 
+the plant rhizosphere. One possibility is that these compounds are used as 
+nutrients, allowing the bacteria to increase their growth rate and reach the 
+population density leading to the activation of the QS system in a shorter time. 
+We tested if P. vulgaris compounds could substitute the bacterial AHL 
+synthesized by TraI, to activate the conjugation machinery. The results showed 
+that the transfer of pRet42a in the presence of the plant is dependent on the 
+bacterial QS system, which cannot be substituted by plant compounds. 
+Additionally, individual compounds of the plant exudates were evaluated; among 
+these, some increased and others decreased the CT. With these results, we 
+suggest that the plant could participate at different levels to modulate the CT, 
+and that some compounds could be activating genes in the conjugation machinery.
+
+DOI: 10.1371/journal.pone.0238218
+PMCID: PMC7449395
+PMID: 32845909 [Indexed for MEDLINE]
+
+Conflict of interest statement: The authors have declared that no competing 
+interests exist.
+Cites: 11165908, 9601222, 9513070, 7856919
+
+
+
+4. Plasmid. 2019 Nov;106:102443. doi: 10.1016/j.plasmid.2019.102443. Epub 2019
+Nov  2.
+
+Plasmid pSfr64a and the symbiotic plasmid pSfr64b of Sinorhizobium fredii GR64 
+control each other's conjugative transfer through quorum-sensing elements.
+
+Cervantes L(1), Miranda-Sánchez F(2), Torres Tejerizo G(3), Romero D(1), Brom 
+S(4).
+
+Author information:
+(1)Programa de Ingeniería Genómica, Centro de Ciencias Genómicas, Universidad 
+Nacional Autónoma de México, Cuernavaca, Mexico.
+(2)Programa de Ingeniería Genómica, Centro de Ciencias Genómicas, Universidad 
+Nacional Autónoma de México, Cuernavaca, Mexico; Department of Civil and 
+Environmental Engineering, Massachusetts Institute of Technology, Cambridge, MA 
+02139, USA.
+(3)Programa de Ingeniería Genómica, Centro de Ciencias Genómicas, Universidad 
+Nacional Autónoma de México, Cuernavaca, Mexico; Instituto de Biotecnología y 
+Biología Molecular (IBBM) - CCT-CONICET-La Plata, Departamento de Ciencias 
+Biológicas, Facultad de Ciencias Exactas, Universidad Nacional de La Plata, La 
+Plata, Argentina.
+(4)Programa de Ingeniería Genómica, Centro de Ciencias Genómicas, Universidad 
+Nacional Autónoma de México, Cuernavaca, Mexico. Electronic address: 
+sbrom@ccg.unam.mx.
+
+Rhizobia are nitrogen-fixing symbionts of plants. Their genomes frequently 
+contain large plasmids, some of which are able to perform conjugative transfer. 
+Plasmid pSfr64a from Sinorhizobium fredii GR64 is a conjugative plasmid, whose 
+transfer is regulated by quorum sensing genes encoded by itself (traR64a, 
+traI64a), in the symbiotic plasmid pSfr64b (traR64b, traI64b), and in the 
+chromosome (ngrI). Also, transfer of pSfr64b requires quorum sensing elements 
+encoded in this plasmid (traR64b, traI64b), in pSfr64a (traR64a), and in the 
+chromosome (ngrI). These results demonstrate that pSfr64a and the symbiotic 
+plasmid depend on each other for conjugative transfer. Plasmid pSfr64a from S. 
+fredii GR64 is unable to transfer from the genomic background of Rhizobium etli 
+CFN42. Our results show that the relaxase of pRet42a is able to process the oriT 
+of pSfr64a, and viceversa, underlining their functional similarity and 
+suggesting that in addition to the external signals, the "cytoplasmic 
+environment" may pose a barrier to plasmid dissemination, even if the plasmids 
+are functional in other aspects.
+
+Copyright © 2019 Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.plasmid.2019.102443
+PMID: 31689451 [Indexed for MEDLINE]
+Cites: 8628070, 7856919
+
+
+
+5. Front Microbiol. 2019 Apr 30;10:910. doi: 10.3389/fmicb.2019.00910.
+eCollection  2019.
+
+Phylogenomic Rhizobium Species Are Structured by a Continuum of Diversity and 
+Genomic Clusters.
+
+González V(1), Santamaría RI(1), Bustos P(1), Pérez-Carrascal OM(1), Vinuesa 
+P(1), Juárez S(1), Martínez-Flores I(1), Cevallos MÁ(1), Brom S(1), 
+Martínez-Romero E(1), Romero D(1).
+
+Author information:
+(1)Centro de Ciencias Genómicas, Universidad Nacional Autónoma de México, 
+Cuernavaca, Mexico.
+
+The bacterial genus Rhizobium comprises diverse symbiotic nitrogen-fixing 
+species associated with the roots of plants in the Leguminosae family. Multiple 
+genomic clusters defined by whole genome comparisons occur within Rhizobium, but 
+their equivalence to species is controversial. In this study we investigated 
+such genomic clusters to ascertain their significance in a species phylogeny 
+context. Phylogenomic inferences based on complete sets of ribosomal proteins 
+and stringent core genome markers revealed the main lineages of Rhizobium. The 
+clades corresponding to R. etli and R. leguminosarum species show several 
+genomic clusters with average genomic nucleotide identities (ANI > 95%), and a 
+continuum of divergent strains, respectively. They were found to be inversely 
+correlated with the genetic distance estimated from concatenated ribosomal 
+proteins. We uncovered evidence of a Rhizobium pangenome that was greatly 
+expanded, both in its chromosomes and plasmids. Despite the variability of 
+extra-chromosomal elements, our genomic comparisons revealed only a few chromid 
+and plasmid families. The presence/absence profile of genes in the complete 
+Rhizobium genomes agreed with the phylogenomic pattern of species divergence. 
+Symbiotic genes were distributed according to the principal phylogenomic 
+Rhizobium clades but did not resolve genome clusters within the clades. We 
+distinguished some types of symbiotic plasmids within Rhizobium that displayed 
+different rates of synonymous nucleotide substitutions in comparison to 
+chromosomal genes. Symbiotic plasmids may have been repeatedly transferred 
+horizontally between strains and species, in the process displacing and 
+substituting pre-existing symbiotic plasmids. In summary, the results indicate 
+that Rhizobium genomic clusters, as defined by whole genomic identities, might 
+be part of a continuous process of evolutionary divergence that includes the 
+core and the extrachromosomal elements leading to species formation.
+
+DOI: 10.3389/fmicb.2019.00910
+PMCID: PMC6503217
+PMID: 31114559
+Cites: 10943007, 10891626, 10754339, 9100948, 8628074, 8289204, 8060271, 8052667, 7920277, 7687279, 7477031
+
+
+
+6. Environ Microbiol. 2019 Sep;21(9):3430-3446. doi: 10.1111/1462-2920.14645.
+Epub  2019 May 20.
+
+Conjugative transfer between Rhizobium etli endosymbionts inside the root 
+nodule.
+
+Bañuelos-Vazquez LA(1), Torres Tejerizo G(1), Cervantes-De La Luz L(1), Girard 
+L(2), Romero D(1), Brom S(1).
+
+Author information:
+(1)Programa de Ingeniería Genómica, Centro de Ciencias Genómicas, Universidad 
+Nacional Autónoma de México, Cuernavaca, Morelos, Mexico.
+(2)Programa de Biología de Sistemas y Biología Sintética, Centro de Ciencias 
+Genómicas, Universidad Nacional Autónoma de México, Cuernavaca, Morelos, Mexico.
+
+Since the discovery that biological nitrogen fixation ensues in nodules 
+resulting from the interaction of rhizobia with legumes, nodules were thought to 
+be exclusive for hosting nitrogen-fixing and plant growth promoting bacteria. In 
+this work, we uncover a novel function of nodules, as a niche permissive to 
+acquisition of plasmids via conjugative transfer. We used Rhizobium etli CFN42, 
+which nodulates Phaseolus vulgaris. The genome of R. etli CFN42 contains a 
+chromosome and six plasmids. pRet42a is a conjugative plasmid regulated by 
+Quorum-Sensing (QS), and pRet42d is the symbiotic plasmid. Here, using confocal 
+microscopy and flow cytometry, we show that pRet42a transfers on the root's 
+surface, and unexpectedly, inside the nodules. Conjugation still took place 
+inside nodules, even when it was restricted on the plant surface by placing the 
+QS traI regulator under the promoter of the nitrogenase gene, which is only 
+expressed inside the nodules, or by inhibiting the QS transcriptional induction 
+of transfer genes with a traM antiactivator on an unstable vector maintained on 
+the plant surface and lost inside the nodules. These results conclusively 
+confirm the occurrence of conjugation in these structures, defining them as a 
+protected environment for bacterial diversification.
+
+© 2019 Society for Applied Microbiology and John Wiley & Sons Ltd.
+
+DOI: 10.1111/1462-2920.14645
+PMID: 31037804
+Cites: 10591227, 10272884, 9601964, 7449395, 7403402, 7141107, 6895182
+
+
+
+7. BMC Microbiol. 2016 Jun 29;16(1):133. doi: 10.1186/s12866-016-0755-y.
+
+Site-specific bacterial chromosome engineering mediated by IntA integrase from 
+Rhizobium etli.
+
+Hernández-Tamayo R(1), Torres-Tejerizo G(1)(2), Brom S(1), Romero D(3).
+
+Author information:
+(1)Programa de Ingeniería Genómica, Centro de Ciencias Genómicas, Universidad 
+Nacional Autónoma de México, Apartado Postal 565-A, 62210, Cuernavaca, Morelos, 
+Mexico.
+(2)Departamento de Ciencias Biológicas, Instituto de Biotecnología y Biología 
+Molecular, UNLP, CCT-La Plata-CONICET, Facultad de Ciencias Exactas, Universidad 
+Nacional de La Plata, La Plata, Argentina.
+(3)Programa de Ingeniería Genómica, Centro de Ciencias Genómicas, Universidad 
+Nacional Autónoma de México, Apartado Postal 565-A, 62210, Cuernavaca, Morelos, 
+Mexico. dromero@ccg.unam.mx.
+
+BACKGROUND: The bacterial chromosome may be used to stably maintain foreign DNA 
+in the mega-base range. Integration into the chromosome circumvents issues such 
+as plasmid replication, stability, incompatibility, and copy number variance. 
+The site-specific integrase IntA from Rhizobium etli CFN42 catalyzes a direct 
+recombination between two specific DNA sites: attA and attD (23 bp). This 
+recombination is stable. The aim of this work was to develop a R. etli 
+derivative that may be used as recipient for the integration of foreign DNA in 
+the chromosome, adapting the IntA catalyzed site-specific recombination system.
+RESULTS: To fulfill our aim, we designed a Rhizobium etli CFN42 derivative, 
+containing a "landing pad" (LP) integrated into the chromosome. The LP sector 
+consists of a green fluorescent protein gene under the control of the lacZ 
+promoter and a spectinomycin resistance gene. Between the lacZ promoter and the 
+GFP gene we inserted an IntA attachment site, which does not affect 
+transcription from the lac promoter. Also, a mobilizable donor vector was 
+generated, containing an attA site and a kanamycin resistance gene; to 
+facilitate insertion of foreign DNA, this vector also contains a multicloning 
+site. There are no promoters flanking the multicloning site. A biparental mating 
+protocol was used to transfer the donor vector into the landing pad strain; 
+insertion of the donor vector into the landing pad sector via IntA-mediated attA 
+X attA recombination thereby interrupted the expression of the green fluorescent 
+protein, generating site-specific cointegrants. Cointegrants were easily 
+recognized by screening for antibiotic sensitivity and lack of GFP expression, 
+and were obtained with an efficiency of 6.18 %.
+CONCLUSIONS: Integration of foreign DNA in Rhizobium, lacking any similarity 
+with the genome, can be easily achieved by IntA-mediated recombination. This 
+protocol contains the mating and selection procedures for creating and isolating 
+integrants.
+
+DOI: 10.1186/s12866-016-0755-y
+PMCID: PMC4928290
+PMID: 27357704 [Indexed for MEDLINE]
+Cites: There are no cites to this article.
+
+
+
+8. J Bacteriol. 2015 Nov 23;198(3):591-9. doi: 10.1128/JB.00768-15. Print 2016
+Feb  1.
+
+Biased Gene Conversion in Rhizobium etli Is Caused by Preferential Double-Strand 
+Breaks on One of the Recombining Homologs.
+
+Yáñez-Cuna FO(1), Castellanos M(1), Romero D(2).
+
+Author information:
+(1)Programa de Ingeniería Genómica, Centro de Ciencias Genómicas, Universidad 
+Nacional Autónoma de México, Cuernavaca, Morelos, México.
+(2)Programa de Ingeniería Genómica, Centro de Ciencias Genómicas, Universidad 
+Nacional Autónoma de México, Cuernavaca, Morelos, México dromero@ccg.unam.mx.
+
+Gene conversion, the nonreciprocal transfer of information during homologous 
+recombination, is the main process that maintains identity between members of 
+multigene families. Gene conversion in the nitrogenase (nifH) multigene family 
+of Rhizobium etli was analyzed by using a two-plasmid system, where each plasmid 
+carried a copy of nifH. One of the nifH copies was modified, creating 
+restriction fragment length polymorphisms (RFLPs) spaced along the gene. Once 
+the modified plasmid was introduced into R. etli, selection was done for 
+cointegration with a resident plasmid lacking the RFLPs. Most of the cointegrate 
+molecules harbor gene conversion events, biased toward a gain of RFLPs. This 
+bias may be explained under the double-strand break repair model by proposing 
+that the nifH gene lacking the RFLPs suffers a DNA double-strand break, so the 
+incoming plasmid functions as a template for repairing the homolog on the 
+resident plasmid. To support this proposal, we cloned an SceI site into the nifH 
+homolog that had the RFLPs used for scoring gene conversion. In vivo expression 
+of the meganuclease I-SceI allowed the generation of a double-strand break on 
+this homolog. Upon introduction of this modified plasmid into an R. etli strain 
+lacking I-SceI, biased gene conversion still favored the retention of markers on 
+the incoming plasmid. In contrast, when the recipient strain ectopically 
+expressed I-SceI, a dramatic reversal in gene conversion bias was seen, favoring 
+the preservation of resident sequences. These results show that biased gene 
+conversion is caused by preferential double-strand breaks on one of the 
+recombining homologs.
+IMPORTANCE: In this work, we analyzed gene conversion by using a system that 
+entails horizontal gene transfer followed by homologous recombination in the 
+recipient cell. Most gene conversion events are biased toward the acquisition of 
+the incoming sequences, ranging in size from 120 bp to 800 bp. This bias is due 
+to preferential cutting of resident DNA and can be reversed upon introduction of 
+a double-strand break on the incoming sequence. Since conditions used in this 
+work are similar to those in horizontal gene transfer, it provides evidence 
+that, upon transfer, the resident DNA preferentially acquires gene variants.
+
+Copyright © 2016, American Society for Microbiology. All Rights Reserved.
+
+DOI: 10.1128/JB.00768-15
+PMCID: PMC4719440
+PMID: 26598365 [Indexed for MEDLINE]
+Cites: 11276520, 10932983, 8223754, 6776008
+
+
+
+9. J Microbiol Methods. 2015 Oct;117:155-63. doi: 10.1016/j.mimet.2015.08.005.
+Epub  2015 Aug 10.
+
+Development of molecular tools to monitor conjugative transfer in rhizobia.
+
+Tejerizo GT(1), Bañuelos LA(2), Cervantes L(2), Gaytán P(3), Pistorio M(4), 
+Romero D(2), Brom S(2).
+
+Author information:
+(1)Instituto de Biotecnología y Biología Molecular, CCT-La Plata-CONICET, 
+Departamento de Ciencias Biológicas, Facultad de Ciencias Exactas, Universidad 
+Nacional de La Plata, La Plata, Argentina. Electronic address: 
+gatt@biol.unlp.edu.ar.
+(2)Programa de Ingeniería Genómica, Centro de Ciencias Genómicas, Universidad 
+Nacional Autónoma de México, Av. Universidad 1001, Col. Chamilpa, 62210 
+Cuernavaca, Morelos, Mexico.
+(3)Instituto de Biotecnología, Universidad Nacional Autónoma de México, Av. 
+Universidad 1001, Col. Chamilpa, 62210 Cuernavaca, Morelos, Mexico.
+(4)Instituto de Biotecnología y Biología Molecular, CCT-La Plata-CONICET, 
+Departamento de Ciencias Biológicas, Facultad de Ciencias Exactas, Universidad 
+Nacional de La Plata, La Plata, Argentina.
+
+Evolution of bacterial populations has been extensively driven by horizontal 
+transfer events. Conjugative plasmid transfer is considered the principal 
+contributor to gene exchange among bacteria. Several conjugative and mobilizable 
+plasmids have been identified in rhizobia, and two major molecular mechanisms 
+that regulate their transfer have been described, under laboratory conditions. 
+The knowledge of rhizobial plasmid transfer regulation in natural environments 
+is very poor. In this work we developed molecular tools to easily monitor the 
+conjugative plasmid transfer in rhizobia by flow cytometry (FC) or microscopy. 
+24 cassettes were constructed by combining a variety of promotors, fluorescent 
+proteins and antibiotic resistance genes, and used to tag plasmids and 
+chromosome of donor strains. We were able to detect plasmid transfer after 
+conversion of non-fluorescent recipients into fluorescent transconjugants. Flow 
+cytometry (FC) was optimized to count donor, recipient and transconjugant 
+strains to determine conjugative transfer frequencies. Results were similar, 
+when determined either by FC or by viable counts. Our constructions also allowed 
+the visualization of transconjugants in crosses performed on bean roots. The 
+tools presented here may also be used for other purposes, such as analysis of 
+transcriptional fusions or single-cell tagging. Application of the system will 
+allow the survey of how different environmental conditions or other regulators 
+modulate plasmid transfer in rhizobia.
+
+Copyright © 2015 Elsevier B.V. All rights reserved.
+
+DOI: 10.1016/j.mimet.2015.08.005
+PMID: 26272377 [Indexed for MEDLINE]
+Cites: 8862416, 7449395, 7403402, 6617588, 4928290
+
+
+
+10. Mol Microbiol. 2014 Sep 30;94(5):963-87. doi: 10.1111/mmi.12810. Online ahead
+of  print.
+
+A comparison of key aspects of gene regulation in Streptomyces coelicolor and 
+Escherichia coli using nucleotide-resolution transcription maps produced in 
+parallel by global and differential RNA sequencing.
+
+Romero DA(1), Hasan AH, Lin YF, Kime L, Ruiz-Larrabeiti O, Urem M, Bucca G, 
+Mamanova L, Laing EE, van Wezel GP, Smith CP, Kaberdin VR, McDowall KJ.
+
+Author information:
+(1)Astbury Centre for Structural Molecular Biology, School of Molecular and 
+Cellular Biology, Faculty of Biological Sciences, University of Leeds, Leeds, 
+LS2 9JT, UK.
+
+Streptomyces coelicolor is a model for studying bacteria renowned as the 
+foremost source of natural products used clinically. Post-genomic studies have 
+revealed complex patterns of gene expression and links to growth, morphological 
+development and individual genes. However, the underlying regulation remains 
+largely obscure, but undoubtedly involves steps after transcription initiation. 
+Here we identify sites involved in RNA processing and degradation as well as 
+transcription within a nucleotide-resolution map of the transcriptional 
+landscape. This was achieved by combining RNA-sequencing approaches suited to 
+the analysis of GC-rich organisms. Escherichia coli was analysed in parallel to 
+validate the methodology and allow comparison. Previously, sites of RNA 
+processing and degradation had not been mapped on a transcriptome-wide scale for 
+E. coli. Through examples, we show the value of our approach and data sets. This 
+includes the identification of new layers of transcriptional complexity 
+associated with several key regulators of secondary metabolism and morphological 
+development in S. coelicolor and the identification of host-encoded leaderless 
+mRNA and rRNA processing associated with the generation of specialized ribosomes 
+in E. coli. New regulatory small RNAs were identified for both organisms. 
+Overall the results illustrate the diversity in mechanisms used by different 
+bacterial groups to facilitate and regulate gene expression.
+
+© 2014 The Authors. Molecular Microbiology published by John Wiley & Sons Ltd.
+
+DOI: 10.1111/mmi.12810
+PMCID: PMC4681348
+PMID: 25266672
+Cites: 9410914, 9130861, 9094748, 8794815, 8780764, 8779481, 8594442, 8459731, 8120823, 7566282, 6667686, 6614810, 6047131, 6028130, 5943314, 5785230, 5499594, 5389530, 5270532, 5230787, 5145812, 5055605, 4941574, 4929434, 4895711, 4782308, 4603805, 4495205, 4457907, 4421045
+
+
+
+11. BMC Genomics. 2014 Jul 8;15(1):575. doi: 10.1186/1471-2164-15-575.
+
+Genomic basis of symbiovar mimosae in Rhizobium etli.
+
+Rogel MA, Bustos P, Santamaría RI, González V, Romero D, Cevallos MÁ, Lozano L, 
+Castro-Mondragón J, Martínez-Romero J, Ormeño-Orrillo E, Martínez-Romero E(1).
+
+Author information:
+(1)Ecological Genomics programs, Genomics Science Center, CCG, Cuernavaca, 
+Morelos, Mexico. esperanzaeriksson@yahoo.com.mx.
+
+BACKGROUND: Symbiosis genes (nod and nif) involved in nodulation and nitrogen 
+fixation in legumes are plasmid-borne in Rhizobium. Rhizobial symbiotic variants 
+(symbiovars) with distinct host specificity would depend on the type of 
+symbiosis plasmid. In Rhizobium etli or in Rhizobium phaseoli, symbiovar 
+phaseoli strains have the capacity to form nodules in Phaseolus vulgaris while 
+symbiovar mimosae confers a broad host range including different mimosa trees.
+RESULTS: We report on the genome of R. etli symbiovar mimosae strain Mim1 and 
+its comparison to that from R. etli symbiovar phaseoli strain CFN42. Differences 
+were found in plasmids especially in the symbiosis plasmid, not only in nod gene 
+sequences but in nod gene content. Differences in Nod factors deduced from the 
+presence of nod genes, in secretion systems or ACC-deaminase could help explain 
+the distinct host specificity. Genes involved in P. vulgaris exudate uptake were 
+not found in symbiovar mimosae but hup genes (involved in hydrogen uptake) were 
+found. Plasmid pRetCFN42a was partially contained in Mim1 and a plasmid 
+(pRetMim1c) was found only in Mim11. Chromids were well conserved.
+CONCLUSIONS: The genomic differences between the two symbiovars, mimosae and 
+phaseoli may explain different host specificity. With the genomic analysis 
+presented, the term symbiovar is validated. Furthermore, our data support that 
+the generalist symbiovar mimosae may be older than the specialist symbiovar 
+phaseoli.
+
+DOI: 10.1186/1471-2164-15-575
+PMCID: PMC4125696
+PMID: 25005495 [Indexed for MEDLINE]
+Cites: 11165908, 8104056, 7318466, 6927923, 6503217, 5968381, 5690337, 4959248
+
+
+
+12. FEMS Microbiol Ecol. 2014 Jun;88(3):565-78. doi: 10.1111/1574-6941.12325. Epub
+ 2014 Apr 7.
+
+Rhizobial plasmid pLPU83a is able to switch between different transfer 
+machineries depending on its genomic background.
+
+Torres Tejerizo G(1), Pistorio M, Althabegoiti MJ, Cervantes L, Wibberg D, 
+Schlüter A, Pühler A, Lagares A, Romero D, Brom S.
+
+Author information:
+(1)Programa de Ingeniería Genómica, Centro de Ciencias Genómicas, Universidad 
+Nacional Autónoma de México, Cuernavaca, Morelos, México; Instituto de 
+Biotecnología y Biología Molecular, CCT-La Plata-CONICET, Departamento de 
+Ciencias Biológicas, Facultad de Ciencias Exactas, Universidad Nacional de La 
+Plata, La Plata, Argentina.
+
+Plasmids have played a major role in bacterial evolution, mainly by their 
+capacity to perform horizontal gene transfer (HGT). Their conjugative transfer 
+(CT) properties are usually described in terms of the plasmid itself. In this 
+work, we analyzed structural and functional aspects of the CT of pLPU83a, an 
+accessory replicon from Rhizobium sp. LPU83, able to transfer from its parental 
+strain, from Ensifer meliloti, or from Rhizobium etli. pLPU83a contains a 
+complete set of transfer genes, featuring a particular organization, shared with 
+only two other rhizobial plasmids. These plasmids contain a TraR quorum-sensing 
+(QS) transcriptional regulator, but lack an acyl-homoserine lactone (AHL) 
+synthase gene. We also determined that the ability of pLPU83a to transfer from 
+R. etli CFN42 genomic background was mainly achieved through mobilization, 
+employing the machinery of the endogenous plasmid pRetCFN42a, falling under 
+control of the QS regulators from pRetCFN42a. In contrast, from its native or 
+from the E. meliloti background, pLPU83a utilized its own machinery for 
+conjugation, requiring the plasmid-encoded traR. Activation of TraR seemed to be 
+AHL independent. The results obtained indicate that the CT phenotype of a 
+plasmid is dictated not only by the genes it carries, but by their interaction 
+with its genomic context.
+
+© 2014 Federation of European Microbiological Societies. Published by John Wiley 
+& Sons Ltd. All rights reserved.
+
+DOI: 10.1111/1574-6941.12325
+PMID: 24646299 [Indexed for MEDLINE]
+Cites: 10194956, 9601222, 9048898, 7902896, 7449395, 7403402, 5958079, 4750851, 4700958, 4294206, 4224046
+
+
+
+13. J Bacteriol. 2013 Oct;195(20):4668-77. doi: 10.1128/JB.00714-13. Epub 2013 Aug
+ 9.
+
+Characterization of IntA, a bidirectional site-specific recombinase required for 
+conjugative transfer of the symbiotic plasmid of Rhizobium etli CFN42.
+
+Hernández-Tamayo R(1), Sohlenkamp C, Puente JL, Brom S, Romero D.
+
+Author information:
+(1)Programas de Ingenería Genómica.
+
+Site-specific recombination occurs at short specific sequences, mediated by the 
+cognate recombinases. IntA is a recombinase from Rhizobium etli CFN42 and 
+belongs to the tyrosine recombinase family. It allows cointegration of plasmid 
+p42a and the symbiotic plasmid via site-specific recombination between 
+attachment regions (attA and attD) located in each replicon. Cointegration is 
+needed for conjugative transfer of the symbiotic plasmid. To characterize this 
+system, two plasmids harboring the corresponding attachment sites and intA were 
+constructed. Introduction of these plasmids into R. etli revealed IntA-dependent 
+recombination events occurring at high frequency. Interestingly, IntA promotes 
+not only integration, but also excision events, albeit at a lower frequency. 
+Thus, R. etli IntA appears to be a bidirectional recombinase. IntA was purified 
+and used to set up electrophoretic mobility shift assays with linear fragments 
+containing attA and attD. IntA-dependent retarded complexes were observed only 
+with fragments containing either attA or attD. Specific retarded complexes, as 
+well as normal in vivo recombination abilities, were seen even in derivatives 
+harboring only a minimal attachment region (comprising the 5-bp central region 
+flanked by 9- to 11-bp inverted repeats). DNase I-footprinting assays with IntA 
+revealed specific protection of these zones. Mutations that disrupt the 
+integrity of the 9- to 11-bp inverted repeats abolish both specific binding and 
+recombination ability, while mutations in the 5-bp central region severely 
+reduce both binding and recombination. These results show that IntA is a 
+bidirectional recombinase that binds to att regions without requiring 
+neighboring sequences as enhancers of recombination.
+
+DOI: 10.1128/JB.00714-13
+PMCID: PMC3807439
+PMID: 23935046 [Indexed for MEDLINE]
+Cites: 4928290
+
+
+
+14. J Bacteriol. 2012 Dec;194(24):6978. doi: 10.1128/JB.01882-12.
+
+Draft genome sequence of the bean-nodulating Sinorhizobium fredii strain GR64.
+
+Torres Tejerizo G(1), Lozano L, González V, Bustos P, Romero D, Brom S.
+
+Author information:
+(1)Programas de Ingeniería Genómica, Universidad Nacional Autónoma de México, 
+Cuernavaca, Morelos, México. gatt@ccg.unam.mx
+
+Sinorhizobium fredii GR64 is a peculiar strain that is able to effectively 
+nodulate bean but not soybean, the common host of S. fredii. Here we present the 
+draft genome of S. fredii GR64. This information will contribute to a better 
+understanding of the symbiotic rhizobium-plant interaction and of rhizobial 
+evolution.
+
+DOI: 10.1128/JB.01882-12
+PMCID: PMC3510590
+PMID: 23209231 [Indexed for MEDLINE]
+Cites: 4571125
+
+
+
+15. FEMS Microbiol Ecol. 2012 Oct;82(1):37-49. doi: 
+10.1111/j.1574-6941.2012.01405.x. Epub 2012 May 25.
+
+Understanding microbial community diversity metrics derived from metagenomes: 
+performance evaluation using simulated data sets.
+
+Bonilla-Rosso G(1), Eguiarte LE, Romero D, Travisano M, Souza V.
+
+Author information:
+(1)Department of Ecología Evolutiva, Instituto de Ecología, Universidad Nacional 
+Autónoma de México, México D.F, México.
+
+Metagenomics holds the promise of greatly advancing the study of diversity in 
+natural communities, but novel theoretical and methodological approaches must 
+first be developed and adjusted for these data sets. We evaluated widely used 
+macroecological metrics of taxonomic diversity on a simulated set of metagenomic 
+samples, using phylogenetically meaningful protein-coding genes as ecological 
+proxies. To our knowledge, this is the first approach of this kind to evaluate 
+taxonomic diversity metrics derived from metagenomic data sets. We demonstrate 
+that abundance matrices derived from protein-coding marker genes reproduce more 
+faithfully the structure of the original community than those derived from 
+SSU-rRNA gene. We also found that the most commonly used diversity metrics are 
+biased estimators of community structure and differ significantly from their 
+corresponding real parameters and that these biases are most likely caused by 
+insufficient sampling and differences in community phylogenetic composition. Our 
+results suggest that the ranking of samples using multidimensional metrics makes 
+a good qualitative alternative for contrasting community structure and that 
+these comparisons can be greatly improved with the incorporation of metrics for 
+both community structure and phylogenetic diversity. These findings will help to 
+achieve a standardized framework for community diversity comparisons derived 
+from metagenomic data sets.
+
+© 2012 Federation of European Microbiological Societies. Published by Blackwell 
+Publishing Ltd. All rights reserved.
+
+DOI: 10.1111/j.1574-6941.2012.01405.x
+PMID: 22554028 [Indexed for MEDLINE]
+Cites: 4681832
+
+
+
+16. BMC Microbiol. 2011 Jun 25;11:149. doi: 10.1186/1471-2180-11-149.
+
+The conjugative plasmid of a bean-nodulating Sinorhizobium fredii strain is 
+assembled from sequences of two Rhizobium plasmids and the chromosome of a 
+Sinorhizobium strain.
+
+Cervantes L(1), Bustos P, Girard L, Santamaría RI, Dávila G, Vinuesa P, Romero 
+D, Brom S.
+
+Author information:
+(1)Programa de Ingeniería Genómica, Centro de Ciencias Genómicas, Universidad 
+Nacional Autónoma de México, Av, Universidad 1001, Cuernavaca, Morelos, CP 
+62240, México.
+
+BACKGROUND: Bean-nodulating Rhizobium etli originated in Mesoamerica, while 
+soybean-nodulating Sinorhizobium fredii evolved in East Asia. S. fredii strains, 
+such as GR64, have been isolated from bean nodules in Spain, suggesting the 
+occurrence of conjugative transfer events between introduced and native strains. 
+In R. etli CFN42, transfer of the symbiotic plasmid (pRet42d) requires 
+cointegration with the endogenous self-transmissible plasmid pRet42a. Aiming at 
+further understanding the generation of diversity among bean nodulating strains, 
+we analyzed the plasmids of S. fredii GR64: pSfr64a and pSfr64b (symbiotic 
+plasmid).
+RESULTS: The conjugative transfer of the plasmids of strain GR64 was analyzed. 
+Plasmid pSfr64a was self-transmissible, and required for transfer of the 
+symbiotic plasmid. We sequenced pSfr64a, finding 166 ORFs. pSfr64a showed three 
+large segments of different evolutionary origins; the first one presented 38 
+ORFs that were highly similar to genes located on the chromosome of 
+Sinorhizobium strain NGR234; the second one harbored 51 ORFs with highest 
+similarity to genes from pRet42d, including the replication, but not the 
+symbiosis genes. Accordingly, pSfr64a was incompatible with the R. etli CFN42 
+symbiotic plasmid, but did not contribute to symbiosis. The third segment 
+contained 36 ORFs with highest similarity to genes localized on pRet42a, 20 of 
+them involved in conjugative transfer. Plasmid pRet42a was unable to substitute 
+pSfr64a for induction of pSym transfer, and its own transfer was significantly 
+diminished in GR64 background. The symbiotic plasmid pSfr64b was found to differ 
+from typical R. etli symbiotic plasmids.
+CONCLUSIONS: S. fredii GR64 contains a chimeric transmissible plasmid, with 
+segments from two R. etli plasmids and a S. fredii chromosome, and a symbiotic 
+plasmid different from the one usually found in R. etli bv phaseoli. We infer 
+that these plasmids originated through the transfer of a 
+symbiotic-conjugative-plasmid cointegrate from R. etli to a S. fredii strain, 
+and at least two recombination events among the R. etli plasmids and the S. 
+fredii genome. As in R. etli CFN42, the S. fredii GR64 transmissible plasmid is 
+required for the conjugative transfer of the symbiotic plasmid. In spite of the 
+similarity in the conjugation related genes, the transfer process of these 
+plasmids shows a host-specific behaviour.
+
+DOI: 10.1186/1471-2180-11-149
+PMCID: PMC3224233
+PMID: 21702991 [Indexed for MEDLINE]
+Cites: 7449395, 7403402, 7276703, 6604995, 4294206, 3957693, 3898782, 3730347, 3553834, 3525954, 3510590
+
+
+
+17. J Bacteriol. 2011 Mar;193(6):1317-26. doi: 10.1128/JB.01184-10. Epub 2011 Jan
+7.
+
+Plasmids with a chromosome-like role in rhizobia.
+
+Landeta C(1), Dávalos A, Cevallos MÁ, Geiger O, Brom S, Romero D.
+
+Author information:
+(1)Programa de Ingeniería Genómica, Centro de Ciencias Genómicas-Universidad 
+Nacional Autónoma de México, Apartado Postal 565-A, 62210 Cuernavaca, Mor., 
+México.
+
+Replicon architecture in bacteria is commonly comprised of one indispensable 
+chromosome and several dispensable plasmids. This view has been enriched by the 
+discovery of additional chromosomes, identified mainly by localization of rRNA 
+and/or tRNA genes, and also by experimental demonstration of their requirement 
+for cell growth. The genome of Rhizobium etli CFN42 is constituted by one 
+chromosome and six large plasmids, ranging in size from 184 to 642 kb. Five of 
+the six plasmids are dispensable for cell viability, but plasmid p42e is 
+unusually stable. One possibility to explain this stability would be that genes 
+on p42e carry out essential functions, thus making it a candidate for a 
+secondary chromosome. To ascertain this, we made an in-depth functional analysis 
+of p42e, employing bioinformatic tools, insertional mutagenesis, and programmed 
+deletions. Nearly 11% of the genes in p42e participate in primary metabolism, 
+involving biosynthetic functions (cobalamin, cardiolipin, cytochrome o, NAD, and 
+thiamine), degradation (asparagine and melibiose), and septum formation 
+(minCDE). Synteny analysis and incompatibility studies revealed highly stable 
+replicons equivalent to p42e in content and gene order in other Rhizobium 
+species. A systematic deletion analysis of p42e allowed the identification of 
+two genes (RHE_PE00001 and RHE_PE00024), encoding, respectively, a hypothetical 
+protein with a probable winged helix-turn-helix motif and a probable 
+two-component sensor histidine kinase/response regulator hybrid protein, which 
+are essential for growth in rich medium. These data support the proposal that 
+p42e and its homologous replicons (pA, pRL11, pRLG202, and pR132502) merit the 
+status of secondary chromosomes.
+
+DOI: 10.1128/JB.01184-10
+PMCID: PMC3067620
+PMID: 21217003 [Indexed for MEDLINE]
+Cites: 9611204, 9138774, 9022086, 8602277, 8443676, 7610768, 6266702, 6117902, 6090056, 6011978, 5852556, 5584315, 5552934, 5118466, 4961836, 4700958, 4326196, 4294206, 4274787, 4231840, 4207669, 4185100, 3925955, 3899959, 3898782, 3597991, 3553834, 3245006, 3224233, 3123555
+
+
+
