@@ -3,7 +3,7 @@ NAME
     blast
 
 VERSION
-    0.1
+    1.0
     
 TYPE
     Homework
@@ -16,7 +16,7 @@ GITHUB
 
 DESCRIPTION
     Receives a FASTA file and excute BLAST online to get the 
-    alignements with the smallest pvalue.
+    alignments with the smallest pvalue.
 
 CATEGORY
     BLAST
@@ -36,13 +36,7 @@ USAGE
     python src/blast.py
 
 ARGUMENTS
-    -h, --help          Show a help message and exit
-    -e EMAIL, --email EMAIL
-                        Email to use in Entrez
-    -i INPUTFILE, --inputfile INPUTFILE
-                        Path to the input file
-    -o OUTPUTFILE, --outputfile OUTPUTFILE
-                        Path to the output file
+    None
                         
 VARIABLES DICTIONARY
     
@@ -53,7 +47,29 @@ SEE ALSO
 '''
 
 # Import libraries
+from Bio import SeqIO
+from Bio.Blast import NCBIWWW, NCBIXML
+
+# Get the sequence
+sequence = SeqIO.read("data/opuntia1.fasta", format="fasta")
 
 # Execute BLAST
+blast_xml = NCBIWWW.qblast("blastn", "nr", sequence.seq)
+
+# Get the information from the xml file
+blast_record = NCBIXML.read(blast_xml)
 
 # Get the alignments with pvalue < 0.05 and print them
+E_VALUE_THRESH = 0.05
+for alignment in blast_record.alignments:
+    for hsp in alignment.hsps:
+        if hsp.expect < E_VALUE_THRESH:
+            print("****Alignment****")
+            print("sequence:", alignment.title)
+            print("length:", alignment.length)
+            print("e value:", hsp.expect)
+            print("score:",hsp.score)
+            print(hsp.query[0:75] + "...")
+            print(hsp.match[0:75] + "...")
+            print(hsp.sbjct[0:75] + "...")
+print("\nDone.")
