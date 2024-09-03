@@ -1,0 +1,610 @@
+***Alignment 1***
+sequence: gi|6273284|gb|AF191658.1|AF191658 Opuntia subulata rpl16 gene; chloroplast gene for chloroplast product, partial intron sequence
+length: 896
+e value: 0.0
+score: 1792.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 2***
+sequence: gi|57240072|gb|AY851612.1| Opuntia subulata rpl16 gene, intron; chloroplast
+length: 892
+e value: 0.0
+score: 1784.0
+CATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGATTCC ...
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+CATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGATTCC ...
+
+
+***Alignment 3***
+sequence: gi|6273285|gb|AF191659.1|AF191659 Opuntia pachypus rpl16 gene; chloroplast gene for chloroplast product, partial intron sequence
+length: 894
+e value: 0.0
+score: 1774.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 4***
+sequence: gi|2496231309|gb|ON241265.1| Austrocylindropuntia subulata ribosomal protein L16 (rpl16) gene, partial cds; chloroplast
+length: 1306
+e value: 0.0
+score: 1769.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 5***
+sequence: gi|6273286|gb|AF191660.1|AF191660 Opuntia echinacea rpl16 gene; chloroplast gene for chloroplast product, partial intron sequence
+length: 893
+e value: 0.0
+score: 1750.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACATAAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 6***
+sequence: gi|6273287|gb|AF191661.1|AF191661 Opuntia kuehnrichiana rpl16 gene; chloroplast gene for chloroplast product, partial intron sequence
+length: 895
+e value: 0.0
+score: 1736.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 7***
+sequence: gi|6273290|gb|AF191664.1|AF191664 Opuntia clavata rpl16 gene; chloroplast gene for chloroplast product, partial intron sequence
+length: 899
+e value: 0.0
+score: 1727.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ...
+TATACATTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATAGGA ...
+
+
+***Alignment 8***
+sequence: gi|6273289|gb|AF191663.1|AF191663 Opuntia bradtiana rpl16 gene; chloroplast gene for chloroplast product, partial intron sequence
+length: 899
+e value: 0.0
+score: 1726.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ...
+TATACATTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATAGGA ...
+
+
+***Alignment 9***
+sequence: gi|57240067|gb|AY851607.1| Pereskiopsis porteri rpl16 gene, intron; chloroplast
+length: 902
+e value: 0.0
+score: 1722.0
+CATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGATTCC ...
+|||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+CATTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGATTCC ...
+
+
+***Alignment 10***
+sequence: gi|2033748915|gb|MT993958.1| Pterocactus reticulatus CORD:Las Penas et al. 825 ribosomal protein L16-like (rpl16) gene, partial sequence; chloroplast
+length: 1171
+e value: 0.0
+score: 1715.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACATTCAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 11***
+sequence: gi|330887282|gb|HM041523.1| Tephrocactus articulatus ribosomal protein L16-like (rpl16) gene, partial sequence; chloroplast
+length: 1171
+e value: 0.0
+score: 1712.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+||||| |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACTTTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 12***
+sequence: gi|2033748914|gb|MT993957.1| Pterocactus neuquensis CORD:Kiesling 10333 ribosomal protein L16-like (rpl16) gene, partial sequence; chloroplast
+length: 1171
+e value: 0.0
+score: 1711.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACATTCAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 13***
+sequence: gi|2033748917|gb|MT993960.1| Pterocactus valentinii CORD:Las Penas et al. 862 ribosomal protein L16-like (rpl16) gene, partial sequence; chloroplast
+length: 1171
+e value: 0.0
+score: 1709.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACATTCAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 14***
+sequence: gi|2261459659|gb|MW419513.1| Grusonia vilis voucher DES:Baker 12834 ribosomal protein L16 (rpL16) gene, intron; chloroplast
+length: 1077
+e value: 0.0
+score: 1708.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ...
+TATACATTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATAGGA ...
+
+
+***Alignment 15***
+sequence: gi|2033748912|gb|MT993955.1| Pterocactus hickenii CORD:Las Penas et al. 831 ribosomal protein L16-like (rpl16) gene, partial sequence; chloroplast
+length: 1172
+e value: 0.0
+score: 1708.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+||||| || ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACTTTCAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 16***
+sequence: gi|2033748910|gb|MT993953.1| Pterocactus fischeri CORD:Las Penas et al. 838 ribosomal protein L16-like (rpl16) gene, partial sequence; chloroplast
+length: 1172
+e value: 0.0
+score: 1708.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACATTCAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 17***
+sequence: gi|330887257|gb|HM041498.1| Pterocactus gonjianii ribosomal protein L16-like (rpl16) gene, partial sequence; chloroplast
+length: 1180
+e value: 0.0
+score: 1706.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+||||| || ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACNTTCAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 18***
+sequence: gi|2261459665|gb|MW419519.1| Pereskiopsis porteri voucher DES:Quirk s.n. ribosomal protein L16 (rpL16) gene, intron; chloroplast
+length: 1081
+e value: 0.0
+score: 1705.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+||||| |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACTTTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 19***
+sequence: gi|2033748911|gb|MT993954.1| Pterocactus gonjianii CORD:Las Penas et al. 822 ribosomal protein L16-like (rpl16) gene, partial sequence; chloroplast
+length: 1171
+e value: 0.0
+score: 1705.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||| | | ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACATTCAGGGAGGAGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 20***
+sequence: gi|2033748916|gb|MT993959.1| Pterocactus tuberosus f. tuberosus CORD:Las Penas et al. 832 ribosomal protein L16-like (rpl16) gene, partial sequence; chloroplast
+length: 1171
+e value: 0.0
+score: 1704.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||| ||| ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACATTCAAGGAGGAGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 21***
+sequence: gi|6273291|gb|AF191665.1|AF191665 Opuntia marenae rpl16 gene; chloroplast gene for chloroplast product, partial intron sequence
+length: 902
+e value: 0.0
+score: 1704.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ...
+TATACATTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATAGGA ...
+
+
+***Alignment 22***
+sequence: gi|2261459656|gb|MW419510.1| Grusonia parishii voucher DES:Wolf 8296 ribosomal protein L16 (rpL16) gene, intron; chloroplast
+length: 1080
+e value: 0.0
+score: 1703.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||||||| |||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| || ...
+TATACATTAAAGGAGGGGGATGCGGATAAATGGGAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATAGGA ...
+
+
+***Alignment 23***
+sequence: gi|2261459647|gb|MW419501.1| Grusonia emoryi voucher DES:Felger 88-11 ribosomal protein L16 (rpL16) gene, intron; chloroplast
+length: 1080
+e value: 0.0
+score: 1703.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+||||| |||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ...
+TATACTTTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATAGGA ...
+
+
+***Alignment 24***
+sequence: gi|2033748909|gb|MT993952.1| Pterocactus australis CORD:Las Penas et al. 860 ribosomal protein L16-like (rpl16) gene, partial sequence; chloroplast
+length: 1172
+e value: 0.0
+score: 1703.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+||| | || ||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATCCTTTCAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 25***
+sequence: gi|2261459648|gb|MW419502.1| Grusonia emoryi voucher DES:Baker 10897 ribosomal protein L16 (rpL16) gene, intron; chloroplast
+length: 1083
+e value: 0.0
+score: 1699.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ...
+TATACATTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATAGGA ...
+
+
+***Alignment 26***
+sequence: gi|2261459657|gb|MW419511.1| Grusonia parishii voucher DES:Baker 7550.1 ribosomal protein L16 (rpL16) gene, intron; chloroplast
+length: 1080
+e value: 0.0
+score: 1698.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ...
+TATACATTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATAGGA ...
+
+
+***Alignment 27***
+sequence: gi|2261459653|gb|MW419507.1| Grusonia invicta voucher SDBG:Voss s.n. ribosomal protein L16 (rpL16) gene, intron; chloroplast
+length: 1077
+e value: 0.0
+score: 1698.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||| |||| || ...
+TATACATTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGCTATAGGA ...
+
+
+***Alignment 28***
+sequence: gi|2258688260|ref|NC_064335.1| Tephrocactus geometricus chloroplast, complete genome >gi|2248385588|gb|MW046206.1| Tephrocactus geometricus chloroplast, complete genome
+length: 116183
+e value: 0.0
+score: 1697.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACATTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 29***
+sequence: gi|2258688260|ref|NC_064335.1| Tephrocactus geometricus chloroplast, complete genome >gi|2248385588|gb|MW046206.1| Tephrocactus geometricus chloroplast, complete genome
+length: 116183
+e value: 0.0341056
+score: 61.0
+CGAGGAGCCGGATGAGAAGAAACTCTCATGTCCGGTTCTGTAG ...
+|||||||||| |||||  |||| |||||||| ||||||||||| ...
+CGAGGAGCCGTATGAGGTGAAAATCTCATGTACGGTTCTGTAG ...
+
+
+***Alignment 30***
+sequence: gi|2261459658|gb|MW419512.1| Grusonia schottii voucher DES:Fenstermacher s.n. ribosomal protein L16 (rpL16) gene, intron; chloroplast
+length: 1079
+e value: 0.0
+score: 1695.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ...
+TATACATTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATAGGA ...
+
+
+***Alignment 31***
+sequence: gi|2261459650|gb|MW419504.1| Grusonia grahamii voucher SRSC:Fenstermacher 1142a ribosomal protein L16 (rpL16) gene, intron; chloroplast
+length: 1079
+e value: 0.0
+score: 1695.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ...
+TATACATTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATAGGA ...
+
+
+***Alignment 32***
+sequence: gi|330887194|gb|HM041435.1| Grusonia bradtiana ribosomal protein L16-like (rpl16) gene, partial sequence; chloroplast
+length: 1181
+e value: 0.0
+score: 1695.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+||||| |||| | ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ...
+TATACTTTAAGGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATAGGA ...
+
+
+***Alignment 33***
+sequence: gi|2261459646|gb|MW419500.1| Grusonia densispina voucher DES:Fenstermacher 2306 ribosomal protein L16 (rpL16) gene, intron; chloroplast
+length: 1083
+e value: 0.0
+score: 1694.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+||||| |||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ...
+TATACTTTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATAGGA ...
+
+
+***Alignment 34***
+sequence: gi|2261459643|gb|MW419497.1| Grusonia bulbispina voucher DES:Dodson et al. s.n. ribosomal protein L16 (rpL16) gene, intron; chloroplast
+length: 1073
+e value: 0.0
+score: 1690.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+||||| |||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ...
+TATACTTTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATAGGA ...
+
+
+***Alignment 35***
+sequence: gi|2261459640|gb|MW419494.1| Grusonia aggeria voucher DES:Marshall s.n. ribosomal protein L16 (rpL16) gene, intron; chloroplast
+length: 1079
+e value: 0.0
+score: 1690.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+||||| |||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ...
+TATACTTTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATAGGA ...
+
+
+***Alignment 36***
+sequence: gi|2261459595|gb|MW419449.1| Cylindropuntia bigelovii var. bigelovii voucher SD:Rebman 4956 ribosomal protein L16 (rpL16) gene, intron; chloroplast
+length: 1083
+e value: 0.0
+score: 1690.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||||||| |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||| || ...
+TATACATTAAAGGAGGGGGGTGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATAGGA ...
+
+
+***Alignment 37***
+sequence: gi|2627891452|ref|NC_083959.1| Tacinga saxatilis voucher L.C.Majure 7084 (FLAS) chloroplast, complete genome >gi|2582772292|gb|OQ613411.1| Tacinga saxatilis voucher L.C.Majure 7084 (FLAS) chloroplast, complete genome
+length: 121937
+e value: 0.0
+score: 1689.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACATTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 38***
+sequence: gi|2627891452|ref|NC_083959.1| Tacinga saxatilis voucher L.C.Majure 7084 (FLAS) chloroplast, complete genome >gi|2582772292|gb|OQ613411.1| Tacinga saxatilis voucher L.C.Majure 7084 (FLAS) chloroplast, complete genome
+length: 121937
+e value: 0.0341056
+score: 61.0
+CGAGGAGCCGGATGAGAAGAAACTCTCATGTCCGGTTCTGTAG ...
+|||||||||| |||||  |||| |||||||| ||||||||||| ...
+CGAGGAGCCGTATGAGGTGAAAATCTCATGTACGGTTCTGTAG ...
+
+
+***Alignment 39***
+sequence: gi|2627888869|ref|NC_083928.1| Miqueliopuntia miquelii voucher DBG 1993-0205 chloroplast, complete genome >gi|2582769484|gb|OQ613376.1| Miqueliopuntia miquelii voucher DBG 1993-0205 chloroplast, complete genome
+length: 150503
+e value: 0.0
+score: 1689.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||||||| | |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACATTAAAGGAAGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 40***
+sequence: gi|2627888869|ref|NC_083928.1| Miqueliopuntia miquelii voucher DBG 1993-0205 chloroplast, complete genome >gi|2582769484|gb|OQ613376.1| Miqueliopuntia miquelii voucher DBG 1993-0205 chloroplast, complete genome
+length: 150503
+e value: 0.0341056
+score: 61.0
+CGAGGAGCCGGATGAGAAGAAACTCTCATGTCCGGTTCTGTAG ...
+|||||||||| |||||  |||| |||||||| ||||||||||| ...
+CGAGGAGCCGTATGAGGTGAAAATCTCATGTACGGTTCTGTAG ...
+
+
+***Alignment 41***
+sequence: gi|2033748913|gb|MT993956.1| Pterocactus megliolii CORD:Las Penas et al. 823 ribosomal protein L16-like (rpl16) gene, partial sequence; chloroplast
+length: 1174
+e value: 0.0
+score: 1688.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+||||| ||  || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| | ...
+TATACCTTCCAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACCA ...
+
+
+***Alignment 42***
+sequence: gi|330887254|gb|HM041495.1| Pereskiopsis sp. THH-2011 ribosomal protein L16-like (rpl16) gene, partial sequence; chloroplast
+length: 1168
+e value: 0.0
+score: 1688.0
+CATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGATTCC ...
+|||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ...
+CATTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATAC-ATTCC ...
+
+
+***Alignment 43***
+sequence: gi|2261459651|gb|MW419505.1| Grusonia grahamii voucher DES:Fenstermacher 2442 ribosomal protein L16 (rpL16) gene, intron; chloroplast
+length: 1079
+e value: 0.0
+score: 1685.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ...
+TATACATTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATAGGA ...
+
+
+***Alignment 44***
+sequence: gi|2261459639|gb|MW419493.1| Grusonia aggeria voucher SRSC:Fenstermacher 2314 ribosomal protein L16 (rpL16) gene, intron; chloroplast
+length: 1080
+e value: 0.0
+score: 1685.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+||||| |||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || ...
+TATACTTTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATAGGA ...
+
+
+***Alignment 45***
+sequence: gi|2261459596|gb|MW419450.1| Cylindropuntia ciribe voucher SD:Rebman 5173 ribosomal protein L16 (rpL16) gene, intron; chloroplast
+length: 1082
+e value: 0.0
+score: 1685.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+||||| |||||| |||||| |||||||||||||||||||||||||||||||||||||||||||||||||||| || ...
+TATACTTTAAAGGAGGGGGGTGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATAGGA ...
+
+
+***Alignment 46***
+sequence: gi|2666703263|ref|NC_085703.1| Opuntia monacantha chloroplast, complete genome >gi|2419852361|gb|MZ579523.1| Opuntia monacantha chloroplast, complete genome
+length: 149076
+e value: 0.0
+score: 1684.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACATTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 47***
+sequence: gi|2666703263|ref|NC_085703.1| Opuntia monacantha chloroplast, complete genome >gi|2419852361|gb|MZ579523.1| Opuntia monacantha chloroplast, complete genome
+length: 149076
+e value: 0.0341056
+score: 61.0
+CGAGGAGCCGGATGAGAAGAAACTCTCATGTCCGGTTCTGTAG ...
+|||||||||| |||||  |||| |||||||| ||||||||||| ...
+CGAGGAGCCGTATGAGGTGAAAATCTCATGTACGGTTCTGTAG ...
+
+
+***Alignment 48***
+sequence: gi|2643613966|gb|OK448351.1| Brasiliopuntia brasiliensis chloroplast, complete genome
+length: 162211
+e value: 0.0
+score: 1684.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACATTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 49***
+sequence: gi|2643613966|gb|OK448351.1| Brasiliopuntia brasiliensis chloroplast, complete genome
+length: 162211
+e value: 0.0341056
+score: 61.0
+CGAGGAGCCGGATGAGAAGAAACTCTCATGTCCGGTTCTGTAG ...
+|||||||||| |||||  |||| |||||||| ||||||||||| ...
+CGAGGAGCCGTATGAGGTGAAAATCTCATGTACGGTTCTGTAG ...
+
+
+***Alignment 50***
+sequence: gi|2643613966|gb|OK448351.1| Brasiliopuntia brasiliensis chloroplast, complete genome
+length: 162211
+e value: 0.0341056
+score: 61.0
+CGAGGAGCCGGATGAGAAGAAACTCTCATGTCCGGTTCTGTAG ...
+|||||||||| |||||  |||| |||||||| ||||||||||| ...
+CGAGGAGCCGTATGAGGTGAAAATCTCATGTACGGTTCTGTAG ...
+
+
+***Alignment 51***
+sequence: gi|2627890802|ref|NC_083951.1| Opuntia retrorsa voucher M.Kohler 522 (ICN) chloroplast, complete genome >gi|2582771566|gb|OQ613402.1| Opuntia retrorsa voucher M.Kohler 522 (ICN) chloroplast, complete genome
+length: 147640
+e value: 0.0
+score: 1684.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACATTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 52***
+sequence: gi|2627890802|ref|NC_083951.1| Opuntia retrorsa voucher M.Kohler 522 (ICN) chloroplast, complete genome >gi|2582771566|gb|OQ613402.1| Opuntia retrorsa voucher M.Kohler 522 (ICN) chloroplast, complete genome
+length: 147640
+e value: 0.0341056
+score: 61.0
+CGAGGAGCCGGATGAGAAGAAACTCTCATGTCCGGTTCTGTAG ...
+|||||||||| |||||  |||| |||||||| ||||||||||| ...
+CGAGGAGCCGTATGAGGTGAAAATCTCATGTACGGTTCTGTAG ...
+
+
+***Alignment 53***
+sequence: gi|2627889900|ref|NC_083940.1| Opuntia guatemalensis voucher DBG1990-0534 chloroplast, complete genome >gi|2582770593|gb|OQ613390.1| Opuntia guatemalensis voucher DBG1990-0534 chloroplast, complete genome
+length: 137494
+e value: 0.0
+score: 1684.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACATTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 54***
+sequence: gi|2627889900|ref|NC_083940.1| Opuntia guatemalensis voucher DBG1990-0534 chloroplast, complete genome >gi|2582770593|gb|OQ613390.1| Opuntia guatemalensis voucher DBG1990-0534 chloroplast, complete genome
+length: 137494
+e value: 0.0341056
+score: 61.0
+CGAGGAGCCGGATGAGAAGAAACTCTCATGTCCGGTTCTGTAG ...
+|||||||||| |||||  |||| |||||||| ||||||||||| ...
+CGAGGAGCCGTATGAGGTGAAAATCTCATGTACGGTTCTGTAG ...
+
+
+***Alignment 55***
+sequence: gi|2627889817|ref|NC_083939.1| Opuntia gaumeri voucher DBG 1999-0027 chloroplast, complete genome >gi|2582770510|gb|OQ613389.1| Opuntia gaumeri voucher DBG 1999-0027 chloroplast, complete genome
+length: 137818
+e value: 0.0
+score: 1684.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACATTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 56***
+sequence: gi|2627889817|ref|NC_083939.1| Opuntia gaumeri voucher DBG 1999-0027 chloroplast, complete genome >gi|2582770510|gb|OQ613389.1| Opuntia gaumeri voucher DBG 1999-0027 chloroplast, complete genome
+length: 137818
+e value: 0.0341056
+score: 61.0
+CGAGGAGCCGGATGAGAAGAAACTCTCATGTCCGGTTCTGTAG ...
+|||||||||| |||||  |||| |||||||| ||||||||||| ...
+CGAGGAGCCGTATGAGGTGAAAATCTCATGTACGGTTCTGTAG ...
+
+
+***Alignment 57***
+sequence: gi|2627889560|ref|NC_083936.1| Opuntia colubrina voucher M.Kohler 523 (ICN) chloroplast, complete genome >gi|2582770192|gb|OQ613385.1| Opuntia colubrina voucher M.Kohler 523 (ICN) chloroplast, complete genome
+length: 147853
+e value: 0.0
+score: 1684.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACATTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 58***
+sequence: gi|2627889560|ref|NC_083936.1| Opuntia colubrina voucher M.Kohler 523 (ICN) chloroplast, complete genome >gi|2582770192|gb|OQ613385.1| Opuntia colubrina voucher M.Kohler 523 (ICN) chloroplast, complete genome
+length: 147853
+e value: 0.0341056
+score: 61.0
+CGAGGAGCCGGATGAGAAGAAACTCTCATGTCCGGTTCTGTAG ...
+|||||||||| |||||  |||| |||||||| ||||||||||| ...
+CGAGGAGCCGTATGAGGTGAAAATCTCATGTACGGTTCTGTAG ...
+
+
+***Alignment 59***
+sequence: gi|2627888952|ref|NC_083929.1| Opuntia arechavaletae voucher M.Kohler 317 (ICN) chloroplast, complete genome >gi|2582769567|gb|OQ613377.1| Opuntia arechavaletae voucher M.Kohler 317 (ICN) chloroplast, complete genome
+length: 149275
+e value: 0.0
+score: 1684.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+|||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACATTAAAGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+
+***Alignment 60***
+sequence: gi|2627888952|ref|NC_083929.1| Opuntia arechavaletae voucher M.Kohler 317 (ICN) chloroplast, complete genome >gi|2582769567|gb|OQ613377.1| Opuntia arechavaletae voucher M.Kohler 317 (ICN) chloroplast, complete genome
+length: 149275
+e value: 0.0341056
+score: 61.0
+CGAGGAGCCGGATGAGAAGAAACTCTCATGTCCGGTTCTGTAG ...
+|||||||||| |||||  |||| |||||||| ||||||||||| ...
+CGAGGAGCCGTATGAGGTGAAAATCTCATGTACGGTTCTGTAG ...
+
+
+***Alignment 61***
+sequence: gi|330887216|gb|HM041457.1| Miqueliopuntia miquelii ribosomal protein L16-like (rpl16) gene, partial sequence; chloroplast
+length: 1197
+e value: 0.0
+score: 1682.0
+TATACATTAAAGAAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+||||| |||| | |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ...
+TATACNTTAANGGAGGGGGATGCGGATAAATGGAAAGGCGAAAGAAAGAAAAAAATGAATCTAAATGATATACGA ...
+
+

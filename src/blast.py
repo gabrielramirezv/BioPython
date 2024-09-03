@@ -90,16 +90,59 @@ def print_results(number_of_alignment, alignment, e_value):
             hsp.expect (float): e value of the alignment
     '''
     if output_file:
-        with open(output_file, 'w') as output:
-            output.write(f"***Alignment {number_of_alignment}***"
-                         + f"\nsequence: {alignment.title}"
-                         + f"\nlength: {alignment.length}"
-                         + f"\ne value: {e_value}")
+        if number_of_alignment == 1:
+            with open(output_file, 'w') as output:
+                output.write(f"***Alignment {number_of_alignment}***"
+                            + f"\nsequence: {alignment.title}"
+                            + f"\nlength: {alignment.length}"
+                            + f"\ne value: {e_value}"
+                            + f"score: {hsp.score}"
+                            + f"{hsp.query[0:75]} ..."
+                            + f"{hsp.match[0:75]} ..."
+                            + f"{hsp.query[0:75]} ...\n\n\n")
+        else:
+            with open(output_file, 'a') as output:
+                output.write(f"***Alignment {number_of_alignment}***"
+                            + f"\nsequence: {alignment.title}"
+                            + f"\nlength: {alignment.length}"
+                            + f"\ne value: {e_value}"
+                            + f"score: {hsp.score}"
+                            + f"{hsp.query[0:75]} ..."
+                            + f"{hsp.match[0:75]} ..."
+                            + f"{hsp.query[0:75]} ...\n\n\n")
     else:
-        print(f"***Alignment {number_of_alignment}***\n"
-              "\nsequence:" , alignment.title,
-              "\nlength: ", alignment.length,
-              "\ne value: ", e_value)
+        print(f"***Alignment {number_of_alignment}***"
+              + f"\nsequence: {alignment.title}"
+              + f"\nlength: {alignment.length}"
+              + f"\ne value: {e_value}"
+              + f"score: {hsp.score}"
+              + f"{hsp.query[0:75]} ..."
+              + f"{hsp.match[0:75]} ..."
+              + f"{hsp.query[0:75]} ...\n\n\n")
+        
+def blast(sequence):
+    '''
+    '''
+    # Execute BLAST
+    blast_xml = NCBIWWW.qblast(blast_type, data_base, sequence)
+
+    # Get the information from the xml file
+    blast_record = NCBIXML.read(blast_xml)
+    
+    return blast_record
+   
+#def evaluate_evalue():
+#    '''
+ #   '''
+  #  best_evalues = list()
+   # number_of_alignment = 0
+    #for alignment in blast_record.alignments:
+     #   for hsp in alignment.hsps:
+      #      if hsp.expect < E_VALUE_THRESH:
+       #         best_evalues[number_of_alignment].append(alignment)
+        #        number_of_alignment += 1
+    #return best_evalues
+
 
 # Create parser
 parser = argparse.ArgumentParser(description="Receives a FASTA file "
@@ -152,21 +195,73 @@ data_base = args.database
 E_VALUE_THRESH = args.evalue
 
 # Read the sequence from the input file
-sequence = SeqIO.read(sequence_file, format=file_format)
+sequence = SeqIO.parse(sequence_file, format=file_format)
+sequences = list()
+for record in sequence.records:
+    sequences.append(record.seq)
 
-# Execute BLAST
-blast_xml = NCBIWWW.qblast(blast_type, data_base, sequence.seq)
-
-# Get the information from the xml file
-blast_record = NCBIXML.read(blast_xml)
-
-# Get the alignments with evalue < 0.05 and print them
-number_of_alignment = 0
-for alignment in blast_record.alignments:
-    for hsp in alignment.hsps:
-        if hsp.expect < E_VALUE_THRESH:
-            number_of_alignment += 1
-            print_results(number_of_alignment, alignment, hsp.expect)
-            
+# If there is just a single sequence, get the alignments with 
+# evalue < 0.05 and print them
+if len(sequences) == 1:
+    seq = sequences[0]
+    blast_record = blast(seq)
+    number_of_alignment = 0
+    for alignment in blast_record.alignments:
+        for hsp in alignment.hsps:
+            if hsp.expect < E_VALUE_THRESH:
+                number_of_alignment += 1
+                print_results(number_of_alignment, alignment, hsp.expect)
+else:
+    for seq in sequences:
+        blast_record = blast(seq)
+        number_of_alignment = 0
+        for alignment in blast_record.alignments:
+            for hsp in alignment.hsps:
+                if hsp.expect < E_VALUE_THRESH:
+                    number_of_alignment += 1
+                    if output_file:
+                        if number_of_alignment == 1:
+                            with open(output_file, 'w') as output:
+                                output.write(f"***Alignment {number_of_alignment}***"
+                                            + f"\nsequence: {alignment.title}"
+                                            + f"\nlength: {alignment.length}"
+                                            + f"\ne value: {hsp.expect}"
+                                            + f"\nscore: {hsp.score}"
+                                            + f"\n{hsp.query[0:75]} ..."
+                                            + f"\n{hsp.match[0:75]} ..."
+                                            + f"\n{hsp.sbjct[0:75]} ...\n\n\n")
+                        else:
+                            with open(output_file, 'a') as output:
+                                output.write(f"***Alignment {number_of_alignment}***"
+                                            + f"\nsequence: {alignment.title}"
+                                            + f"\nlength: {alignment.length}"
+                                            + f"\ne value: {hsp.expect}"
+                                            + f"\nscore: {hsp.score}"
+                                            + f"\n{hsp.query[0:75]} ..."
+                                            + f"\n{hsp.match[0:75]} ..."
+                                            + f"\n{hsp.sbjct[0:75]} ...\n\n\n")
+                    else:
+                        print(f"***Alignment***"
+                            + f"\nsequence: {alignment.title}"
+                            + f"\nlength: {alignment.length}"
+                            + f"\ne value: {hsp.expect}"
+                            + f"\nscore: {hsp.score}"
+                            + f"\n{hsp.query[0:75]} ..."
+                            + f"\n{hsp.match[0:75]} ..."
+                            + f"\n{hsp.sbjct[0:75]} ...\n\n\n")
+        
+    '''
+    hits = list()
+    for seq in sequences:
+        blast_record = blast(seq)
+        for alignment in blast_record.alignments:
+            for hsp in alignment.hsps:
+                if hsp.expect < E_VALUE_THRESH:
+                    hits.append(alignment)
+            hits
+        best_hit = max(hits)
+        print()
+    '''
+        
 # Let the user know that the process is finished
 print("\nDone.")
