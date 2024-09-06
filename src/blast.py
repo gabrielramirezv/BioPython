@@ -3,7 +3,7 @@ NAME
     blast
 
 VERSION
-    0.1
+    2.0
     
 TYPE
     Homework
@@ -93,27 +93,50 @@ database = args.database
 E_VALUE_THRESH = args.evalue
 
 # Read the sequences from the input file
-for seq in SeqIO.parse(seq_file, format=input_format):
+seqs = list(SeqIO.parse(seq_file, format=input_format))
+if len(seqs) > 1:
+    for seq in seqs:
+        # Execute BLAST
+        blast_xml = NCBIWWW.qblast(blast_type, database, seq.seq)
+
+        # Parse the BLAST XML
+        blast_record = NCBIXML.read(blast_xml)
+
+        # Get the best alignments with pvalue < 0.05 and print them
+        for alignment in blast_record.alignments:
+            hsp_count = 0
+            if alignment.hsps[hsp_count].expect < E_VALUE_THRESH:
+                print(f"****Best Alignment for {seq.id}****")
+                print("sequence:", alignment.title)
+                print("length:", alignment.length)
+                print("e value:", alignment.hsps[hsp_count].expect)
+                print("score:",alignment.hsps[hsp_count].score)
+                print(alignment.hsps[hsp_count].query[0:75] + "...")
+                print(alignment.hsps[hsp_count].match[0:75] + "...")
+                print(alignment.hsps[hsp_count].sbjct[0:75] + "...\n")
+                break
+            else:
+                hsp_count += 1
+    print("\nDone.\n\n\n")
+else:
+    seq = seqs[0]
+
     # Execute BLAST
     blast_xml = NCBIWWW.qblast(blast_type, database, seq.seq)
 
     # Parse the BLAST XML
     blast_record = NCBIXML.read(blast_xml)
-
-    # Get the best alignments with pvalue < 0.05 and print them
-    E_VALUE_THRESH = 0.05
+    number_of_alignment = 0 
     for alignment in blast_record.alignments:
-        hsp_count = 0
-        if alignment.hsps[hsp_count].expect < E_VALUE_THRESH:
-            print(f"****Best Alignment for {seq.id}****")
-            print("sequence:", alignment.title)
-            print("length:", alignment.length)
-            print("e value:", alignment.hsps[hsp_count].expect)
-            print("score:",alignment.hsps[hsp_count].score)
-            print(alignment.hsps[hsp_count].query[0:75] + "...")
-            print(alignment.hsps[hsp_count].match[0:75] + "...")
-            print(alignment.hsps[hsp_count].sbjct[0:75] + "...\n")
-            break
-        else:
-            hsp_count += 1
-print("\nDone.\n")
+        for hsp in alignment.hsps:
+            if hsp.expect < E_VALUE_THRESH:
+                number_of_alignment += 1
+                print(f"****Alignment {number_of_alignment}****")
+                print("sequence:", alignment.title)
+                print("length:", alignment.length)
+                print("e value:", hsp.expect)
+                print("score:",hsp.score)
+                print(hsp.query[0:75] + "...")
+                print(hsp.match[0:75] + "...")
+                print(hsp.sbjct[0:75] + "...\n")
+    print("\nDone.\n\n")
