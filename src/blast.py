@@ -32,12 +32,21 @@ REQUIREMENTS
         |- results   # Output files will be created in this directory
         |- src       # The script must be executed from this directory
 USAGE
-    python src/blast.py
+    python blast.py [-h] -i INPUTFILE [-f FORMAT] [-b BLASTTYPE] 
+        [-d DATABASE] [-e EVALUE]
 
 ARGUMENTS
-    None
-                        
-VARIABLES DICTIONARY
+    -h, --help           show this help message and exit
+    -i INPUTFILE, --inputfile INPUTFILE
+                        Path to the file with the sequence to blast
+    -f FORMAT, --format FORMAT
+                        Format of the sequence file
+    -b BLASTTYPE, --blasttype BLASTTYPE
+                        Blast type to be executed
+    -d DATABASE, --database DATABASE
+                        Database to blast
+    -e EVALUE, --evalue EVALUE
+                        e value limit for the alignments
     
 SEE ALSO
     blastn
@@ -94,16 +103,26 @@ E_VALUE_THRESH = args.evalue
 
 # Read the sequences from the input file
 seqs = list(SeqIO.parse(seq_file, format=input_format))
+
+# This program just prints the best hit for each sequence if there is 
+# more than one sequence to analyze
 if len(seqs) > 1:
+
+    # Search the best hit for each sequence 
     for seq in seqs:
+
         # Execute BLAST
         blast_xml = NCBIWWW.qblast(blast_type, database, seq.seq)
 
-        # Parse the BLAST XML
+        # Read the BLAST XML
         blast_record = NCBIXML.read(blast_xml)
 
-        # Get the best alignments with pvalue < 0.05 and print them
+        # Get the best alignments with a lower e value than the thresh 
+        # and print them
         for alignment in blast_record.alignments:
+            # Since the alignments are sorted by score, iterate the 
+            # alignments until the program finds an e value lower than 
+            # the thresh
             hsp_count = 0
             if alignment.hsps[hsp_count].expect < E_VALUE_THRESH:
                 print(f"****Best Alignment for {seq.id}****")
@@ -117,15 +136,23 @@ if len(seqs) > 1:
                 break
             else:
                 hsp_count += 1
-    print("\nDone.\n\n\n")
+
+# If there is just a single sequence to analyze, the program will print
+# the alignments with a lower e value than the thresh
 else:
+
+    # While there is an only sequence, it will be stored in a variable 
+    # for legibility
     seq = seqs[0]
 
     # Execute BLAST
     blast_xml = NCBIWWW.qblast(blast_type, database, seq.seq)
 
-    # Parse the BLAST XML
+    # Read the BLAST XML
     blast_record = NCBIXML.read(blast_xml)
+
+    # Evaluate the e evalues and print the alignments under the e value 
+    # limit
     number_of_alignment = 0 
     for alignment in blast_record.alignments:
         for hsp in alignment.hsps:
@@ -139,4 +166,6 @@ else:
                 print(hsp.query[0:75] + "...")
                 print(hsp.match[0:75] + "...")
                 print(hsp.sbjct[0:75] + "...\n")
-    print("\nDone.\n\n")
+
+# Let the user know that the process is finished
+print("\nDone.\n\n")
