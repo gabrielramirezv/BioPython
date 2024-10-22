@@ -53,12 +53,12 @@ costs = pd.Series([ 3.5, 5, 7, 4.3],
 # Create production at 30 degrees column for the dataframe
 production_30 = pd.Series([5, 11, 4, 7, 2],
                         index=["gene1", "gene2", "gene3", "gene4", "gene5"],
-                        name="production at 35°C")
+                        name="production_at_30")
 
 # Create production at 35 degrees column for the dataframe
 production_35 = pd.Series([3, 7, 9, 4, 6],
                         index=["gene1", "gene2", "gene3", "gene4", "gene5"],
-                        name="production at 35°C")
+                        name="production_at_35")
 
 # Create cost-benefit production
 cost_benefit = pd.DataFrame({'costs': costs,
