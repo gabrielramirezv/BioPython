@@ -73,5 +73,9 @@ unitary_cost_35 = cost_benefit.costs / cost_benefit.production_at_35
 cost_benefit.insert(2, "unitary_cost_at_30", unitary_cost_30)
 cost_benefit.insert(4, "unitary_cost_at_35", unitary_cost_35)
 
-# Print results
+# Print dataframe
+print(cost_benefit)
+
+# Print maximum IDs
+print("\nThe genes with the maximum values for each category are:")
 print(cost_benefit.idxmax())
